@@ -56,7 +56,7 @@ This Test Management Plan defines the strategy, objectives, scope, approach, res
 
 | Category            | Purpose                                           | Tools / Platforms                                |
 |--------------------|-------------------------------------------------|-------------------------------------------------|
-| Test Management     | Plan, track, and manage test cases and tasks   | Jira, GitHub Projects                            |
+| Test Management     | Plan, track, and manage test cases and tasks   | [Jira](https://software-development-kns.atlassian.net/jira/software/projects/CLEANCITY/boards/2/backlog?atlOrigin=eyJpIjoiN2E3NjNiYjE3OWYxNGIyNzg3NzgwYTUyODIyYTUzYTEiLCJwIjoiaiJ9)                         |
 | Documentation       | Document test plans      |            |
 |       | Results and reports      |            |
 | Testing Tools       |  |     |
