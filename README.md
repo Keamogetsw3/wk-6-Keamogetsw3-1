@@ -51,6 +51,9 @@ This application is specifically designed to provide QA learners with a realisti
 - **Data Storage**: localStorage (no backend required)
 - **Testing**: React Testing Library (included)
 
+## Test Management
+https://software-development-kns.atlassian.net/jira/software/projects/CLEANCITY/boards/2/backlog?atlOrigin=eyJpIjoiZjkwM2EyYjY3NDJkNDc2YWJiYmVhMjA1NWM1OTQ4ODYiLCJwIjoiaiJ9
+
 ## 📦 Installation & Setup
 
 ### Prerequisites
