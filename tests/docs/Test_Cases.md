@@ -13,7 +13,7 @@
 |------|------------------------|--------------------------------------------------|--------------------------------------------------------|---------------|---------|-----------|
 | TC001 | Registration           | Register new user with valid data                | Account created successfully                             | Account successfully created           | Pass ✅   | R002      |
 | F002 | Registration           | Register user with invalid email                 | Validation error displayed                                | TBD           | TBD     | R002      |
-| F003 | Login                  | Login with correct credentials                   | Access granted                                          | TBD           | TBD     | R003      |
+| F003 | Login                  | Login with correct credentials                   | Access granted                                          | Logged in successfully           | Pass ✅     | R003      |
 | F004 | Login                  | Login with wrong credentials                     | Error message displayed                                  | TBD           | TBD     | R003      |
 | F005 | Pickup Scheduling      | Schedule new pickup                              | Request created successfully                             | TBD           | TBD     | R006      |
 | F006 | Pickup Scheduling      | Cancel pickup request                            | Request status updated to "Cancelled"                   | TBD           | TBD     | R006      |
