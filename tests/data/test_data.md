@@ -17,17 +17,17 @@ This file contains test data and scenarios for various features of the project, 
 
 | Test Case ID | Test Scenario                | Full Name | Email                                       | Password     | Expected Result                                   | Notes              |
 | ------------ | ---------------------------- | --------- | ------------------------------------------- | ------------ | ------------------------------------------------- | ------------------ |
-| TC001       | Valid registration           | New Test User | newuser@test.com   | NewPass123 | Registration successful                           | Positive test case |
+| TC001       | Registration           | New Test User | newuser@test.com   | NewPass123 | Registration successful                           | Positive test case |
 
 
 
 ### **Regular User Accounts**
 | Test Case ID | Test Scenario                | Email                                   | Password    | Expected Result                     | Notes              |
 | ------------ | ---------------------------- | --------------------------------------- | ----------- | ----------------------------------- | ------------------ |
-| TC002      | Valid login     | [newuser@test.com](mailto:newuser@test.com) | NewPass123 | Successfully registered / logged in | Positive test case |
-| TC003      | Valid login     | [user1@test.com](mailto:user1@test.com) | TestPass123 | Successfully registered / logged in | Positive test case |
-| TC004       | Valid login     | [user2@test.com](mailto:user2@test.com) | TestPass123 | Successfully registered / logged in | Positive test case |
-| TC005       | Valid login     | [user3@test.com](mailto:user3@test.com) | TestPass123 | Successfully registered / logged in | Positive test case |
+| TC002      | Login     | [newuser@test.com](mailto:newuser@test.com) | NewPass123 | Successfully registered / logged in | Positive test case |
+| TC003      | Login     | [user1@test.com](mailto:user1@test.com) | TestPass123 | Successfully registered / logged in | Positive test case |
+| TC004       | Login     | [user2@test.com](mailto:user2@test.com) | TestPass123 | Successfully registered / logged in | Positive test case |
+| TC005       | Login     | [user3@test.com](mailto:user3@test.com) | TestPass123 | Successfully registered / logged in | Positive test case |
 
 
 
