@@ -21,7 +21,7 @@ List 3 things the CleanCity app should do correctly.
 ## 🐛 Reported Bugs
 
 ### 🐞 BUG-001
-Title: Profile shows email username instead of Full Name after registration
+**Title**: Profile shows email username instead of Full Name after registration
 GitHub Link: 
 Requirement Affected: User Registration – Profile Display
 Severity: Low
