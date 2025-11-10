@@ -2,7 +2,7 @@
 ![Alt text](cleancity.png)
 
 **Course:** Software Testing & Quality Assurance  
-**Project Type:** Group Assessment  
+**Project Type:** Group Assessment
 **Team Name:** KNS  
 **Submission Date:** 2025-11-18
 
