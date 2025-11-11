@@ -15,18 +15,18 @@ Test Environment Details
 ### Manual Test
 | **Test Type**      | **Total Cases** | **Passed** | **Failed** | **Blocked** | **Pass %** |
 | ------------------ | --------------- | ---------- | ---------- | ----------- | ---------- |
-| Functional         |               |          |          | 0           | %        |
-|    Non-Functional          |              |         |         | 0           | %        |
-| UI/UX        |              |         |         | 0           | %        |
+| Functional         |        10       |          |          | 0           | %        |
+|    Non-Functional          |   6           |         |         | 0           | %        |
+| UI/UX        |       4       |         |         | 0           | %        |
 | **Total (Manual)** | ****          | ****     | ****      | **0**       | **%**  |
 
 ### Automated Test
 
 | **Test Type**      | **Total Cases** | **Passed** | **Failed** | **Blocked** | **Pass %** |
 | ------------------ | --------------- | ---------- | ---------- | ----------- | ---------- |
-| Functional         |               |          |          | 0           | %        |
-|     Non-Functional           |              |         |         | 0           | %        |
-|    UI/UX    |              |         |         | 0           | %        |
+| Functional         |     4          |          |          | 0           | %        |
+|     Non-Functional           |   4           |         |         | 0           | %        |
+|    UI/UX    |           5   |         |         | 0           | %        |
 | **Total (Manual)** | ****          | ****     | ****      | **0**       | **%**  |
 
 Defect Analysis and Categorization
