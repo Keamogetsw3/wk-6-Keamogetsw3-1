@@ -48,4 +48,4 @@ Manual and automated test cases were executed
 | Test Case ID | Test Description | Test Type | Status | Defect ID | Severity | Tester | Date | Remarks |
 |---------------|----------------|------------------|------------|----------|------------|-----------|---------|--------|
 | TC001 | Verify registration with valid credentials | Functional | Passed | — | — | Keamogetswe M | 2025-11-10 | Succefully registered |
-| TC003 |  Verify login with valid password | Functional | Passed | - | - | Keamogetswe M | 2025-11-10 | successfully logged in |
+| TC003 |  Verify login with valid password | Functional | Passed | - | - | Keamogetswe M | 2025-11-10 | Successfully logged in |
