@@ -53,6 +53,7 @@
 | TC023 | Buttons | Minimum touch target size | Buttons ≥44x44px on mobile | TBD | TBD | R009 |
 
 ---
+CROSS BROWSER TESTING (CHROME , MICROSOFT EDGE, FIREFOX)
 
 | TC No. | Feature              | Objective                                           | Expected Result                                 | Actual Result                                      | Status     | Risk Link |
 |--------:|----------------------|----------------------------------------------------|--------------------------------------------------|----------------------------------------------------|-------------|------------|
@@ -107,6 +108,7 @@
 - 📱 **Cross-browser & accessibility** tests now linked correctly to **R009 (Mobile & Cross-browser)**.  
 
 ---
+
 
 
 
