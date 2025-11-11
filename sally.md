@@ -55,10 +55,13 @@
 ---
 
 ### 4. Cross-Browser Compatibility Test Cases
+| TC No. | Feature      | Objective                                           | Expected Result                       | Actual Result                                      | Status     | Risk Link |
+|--------:|--------------|----------------------------------------------------|----------------------------------------|----------------------------------------------------|-------------|------------|
+| TC021  | Registration | Register new user with valid data                   | Account created successfully           | Successfully registered new user in Chrome         | ✅ Pass     | R002       |
+| TC022  | Login        | Login with correct credentials                      | Access granted                         | Successfully logged in with correct password       | ✅ Pass     | R003       |
+| TC023  | Login        | Login with wrong credentials                        | Error message displayed                 | Error “Wrong password” displayed as expected       | ✅ Pass     | R003       |
+| TC024  | Login        | Login with the same credentials across all browsers | Invalid email or wrong password message | Failed to login — “Invalid email or wrong password”| ❌ Fail     | R003       |
 
-| TC | Feature | Objective | Expected Result | Actual Result | Status | Risk Link |
-|:--:|:--|:--|:--|:--|:--|:--:|
-| TC024 | Registration | Test in Chrome, Firefox, Safari, Edge | Works consistently across browsers | TBD | TBD | R009 |
 | TC025 | Pickup Scheduling | Test in Chrome, Firefox, Safari, Edge | Works consistently across browsers | TBD | TBD | R009 |
 | TC026 | Blog Module | Test in Chrome, Firefox, Safari, Edge | Blog posts render correctly | TBD | TBD | R009 |
 | TC027 | Community Module | Test in Chrome, Firefox, Safari, Edge | Posts/comments/likes function correctly | TBD | TBD | R009 |
@@ -105,4 +108,5 @@
 - 📱 **Cross-browser & accessibility** tests now linked correctly to **R009 (Mobile & Cross-browser)**.  
 
 ---
+
 
