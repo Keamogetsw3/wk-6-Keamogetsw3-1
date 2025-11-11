@@ -15,7 +15,7 @@
 #### 1.1 Registration Test Cases
 
 | Test Case ID | Objective                         | Expected Result              | Risk Link |
-| ----- | ------------ | --------------------------------- | ---------------------------- | --------- |
+| ----- | --------------------------------- | ---------------------------- | --------- |
 | TC-001 | Register new user with valid data | Account created successfully | R002      |
 | TC-002 | Register user with invalid email  | Validation error displayed   | R002      |
 | TC-003 | Register user with empty name     | Validation error displayed   | R002      |
