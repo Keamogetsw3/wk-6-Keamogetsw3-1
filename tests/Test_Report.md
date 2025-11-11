@@ -14,11 +14,11 @@ Manual and automated test cases were executed
 
 | Category | Range of Test Case IDs | Count |
 |-----------|------------------------|--------|
-| ✅ Functional | TC001 – TC010 | 10 |
-| ⚙️ Non-Functional | TC011 – TC016 | 6 |
-| ♿ UI (Accessibility + Cross-Browser) | TC017 – TC024 | 8 |
-| 🧭 Boundary & Edge Cases | TC025 – TC034 | 10 |
-| **🎯 Total** |  | **34** |
+| Functional | TC001 – TC010 | 10 |
+| Non-Functional | TC011 – TC016 | 6 |
+| UI (Accessibility + Cross-Browser) | TC017 – TC024 | 8 |
+| Boundary & Edge Cases | TC025 – TC034 | 10 |
+| **Total** |  | **34** |
 
 ---
 
@@ -26,11 +26,11 @@ Manual and automated test cases were executed
 
 | Category | Range of Test Case IDs | Count |
 |-----------|------------------------|--------|
-| ✅ Functional | TC035 – TC044 | 10 |
-| ⚙️ Non-Functional | TC045 – TC050 | 6 |
-| ♿ UI (Accessibility + Cross-Browser) | TC051 – TC058 | 8 |
-| 🧭 Boundary & Edge Cases | TC059 – TC067 | 9 |
-| **🎯 Total** |  | **33** |
+| Functional | TC035 – TC044 | 10 |
+| Non-Functional | TC045 – TC050 | 6 |
+| UI (Accessibility + Cross-Browser) | TC051 – TC058 | 8 |
+| Boundary & Edge Cases | TC059 – TC067 | 9 |
+| ** Total** |  | **33** |
 
 ---
 
@@ -38,11 +38,11 @@ Manual and automated test cases were executed
 
 | Category | Manual | Automated | Total |
 |-----------|---------|------------|--------|
-| ✅ Functional | 10 | 10 | **20** |
-| ⚙️ Non-Functional | 6 | 6 | **12** |
-| ♿ UI (Accessibility + Cross-Browser) | 8 | 8 | **16** |
-| 🧭 Boundary & Edge Cases | 10 | 9 | **19** |
-| **💯 Grand Total** | **34** | **33** | **67** |
+| Functional | 10 | 10 | **20** |
+| Non-Functional | 6 | 6 | **12** |
+| UI (Accessibility + Cross-Browser) | 8 | 8 | **16** |
+| Boundary & Edge Cases | 10 | 9 | **19** |
+| ** Grand Total** | **34** | **33** | **67** |
 
 ---
 ## Test Case Execution Report 
