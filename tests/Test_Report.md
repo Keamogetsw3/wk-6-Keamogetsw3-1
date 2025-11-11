@@ -45,15 +45,22 @@ Manual and automated test cases were executed
 | ** Grand Total** | **34** | **33** | **67** |
 
 ---
-## Test Case Execution Report 
+## Test Case Execution Report
+---
+This section provides a detailed summary of the test cases executed during the Phase 3 (test execution) of this project.  
+The purpose of this report is to validate that the application meets its functional requirements
 
-| Test Case ID | Test Description | Test Type | Status | Defect ID | Severity | Tester | Date | Remarks |
-|---------------|----------------|------------------|------------|----------|------------|-----------|---------|--------|
-| TC001 | Verify registration with valid credentials | Functional | Passed | — | — | Keamogetswe M | 2025-11-10 | Succefully registered |
-| TC002 | Verify registration with invalid email| Functional | Passed | — | — | Keamogetswe M | 2025-11-10 | Error was shown as expected |
-| TC003 |  Verify login with valid password | Functional | Passed | — | — | Keamogetswe M | 2025-11-10 | Successfully logged in |
-| TC001 | Verify registration with valid credentials | Functional | Passed | — | — | Keamogetswe M | 2025-11-10 | Succefully registered |
-| TC003 |  Verify login with valid password | Functional | Passed | — | — | Keamogetswe M | 2025-11-10 | Successfully logged in |
+### Table 4: Executed test cases, their results, and key observations.
+# 🧪 Test Case Table
+
+| Test Case ID | Test Description                            | Test Type   | Expected Result                                | Actual Result                                  | Status  | Defect ID | Severity | Tester        | Date       | 
+|---------------|---------------------------------------------|--------------|------------------------------------------------|------------------------------------------------|----------|------------|-----------|----------------|------------|
+| TC001         | Verify registration with valid credentials  | Functional   | User should be registered successfully          | User successfully registered                   | Passed   | —          | —         | Keamogetswe M | 2025-11-10 |
+| TC002         | Verify registration with invalid email      | Functional   | System should show validation error             | Error message displayed as expected            | Passed   | —          | —         | Keamogetswe M | 2025-11-10 |
+| TC003         | Verify login with valid password            | Functional   | User should be logged in successfully           | User successfully logged in                    | Passed   | —          | —         | Keamogetswe M | 2025-11-10 |
+| TC004         | Verify registration with valid credentials  | Functional   | User should be registered successfully          | User successfully registered                   | Passed   | —          | —         | Keamogetswe M | 2025-11-10 |
+| TC005         | Verify login with valid password            | Functional   | User should be logged in successfully           | User successfully logged in                    | Passed   | —          | —         | Keamogetswe M | 2025-11-10 |
+
 
 
 ## Test Case Execution Report 
