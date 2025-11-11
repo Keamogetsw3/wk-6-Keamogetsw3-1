@@ -35,23 +35,25 @@
 
 
 
+| TC No. | Feature              | Objective                                           | Expected Result                                   | Actual Result                                         | Status     | Risk Link |
+|--------:|----------------------|----------------------------------------------------|----------------------------------------------------|-------------------------------------------------------|-------------|------------|
+| TC001  | Registration         | Register new user with valid data                   | Account created successfully                       | Account successfully created                          | ✅ Pass     | R002       |
+| TC002  | Registration         | Register user with invalid email                    | Validation error displayed                         | Error was shown                                       | ✅ Pass     | R002       |
+| TC003  | Registration         | Register user with empty name                       | Validation error displayed                         | Error was shown                                       | ✅ Pass     | R002       |
+| TC004  | Login                | Login with correct credentials                      | Access granted                                     | Logged in successfully                                | ✅ Pass     | R003       |
+| TC005  | Pickup Scheduling    | Schedule new pickup                                 | Request created successfully                       | Request created successfully                          | ✅ Pass     | R006       |
+| TC006  | Pickup Scheduling    | Cancel pickup request                               | Request status updated to "Cancelled"              | Cancel operation failed                               | ❌ Fail     | R006       |
+| TC007  | Blog Module          | Publish a new blog post                             | Post appears in blog list                          | Blog post failed to publish                           | ❌ Fail     | R007       |
+| TC008  | Admin Panel          | Admin panel login                                   | Admin successfully logs in                         | Admin logged in successfully                          | ✅ Pass     | R008       |
+| TC009  | Admin Dashboard      | Cannot receive or reply to feedback                 | Feedback system should accept and reply properly   | Admin unable to receive or reply to feedback          | ❌ Fail     | R008       |
+| TC010  | Dashboard Filters    | Filter by status (Admin & User)                     | Only requests with selected status should display  | Filter not working in both dashboards                 | ❌ Fail     | R002       |
+| TC011  | Dashboard Filters    | Filter by location (Admin & User)                   | Only requests in selected location should display  | Requests filtered correctly by location               | ✅ Pass     | R002       |
+| TC012  | Admin Panel          | Update user status                                  | User status updates successfully                   | Status updated successfully                           | ✅ Pass     | R008       |
 
 
 
 
-| TC (number) | Feature | Objective | Expected Result | Actual Result | Status | Risk Link |
-|--------------|----------|------------|----------------|----------------|---------|-----------|
-| TC001 | Registration | Register new user with valid data | Account created successfully | Account successfully created | Pass ✅ | R002 |
-| TC002 | Registration | Register user with invalid email | Validation error displayed | Error was shown | Pass ✅| R002 |
-| TC003 | Registration | Register user with empty name | Validation error displayed | Error was shown | Pass ✅| R002 |
-| TC003 | Login | Login with correct credentials | Access granted | Logged in successfully | Pass ✅ | R003 |
-| TC004 | Login | Login with wrong credentials | Error message displayed | TBD | TBD | R003 |
-| TC005 | Pickup Scheduling | Schedule new pickup | Request created successfully | TBD | TBD | R006 |
-| TC006 | Pickup Scheduling | Cancel pickup request | Request status updated to "Cancelled" | TBD | TBD | R006 |
-| TC007 | Blog Module | Publish a new blog post | Post appears in blog list | TBD | TBD | R007 |
-| TC008 | Community Module | Add a new post | Post appears in community feed | TBD | TBD | R011 |
-| TC009 | Profile Management | Update profile information | Changes reflected in user profile | TBD | TBD | R002 |
-| TC010 | Admin Panel | Mark pickup as scheduled | Status updated, UI refreshed | TBD | TBD | R008 |
+
 
 ---
 
