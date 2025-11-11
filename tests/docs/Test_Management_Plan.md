@@ -72,8 +72,10 @@ This Test Management Plan defines the strategy, objectives, scope, approach, res
 | **Data Storage** | localStorage                          |
 | **Test Data**    | Mock users, sample pickup requests, admin accounts,Sample Blog Posts|
 
-## Scope
-### In Scope:
+## Testing Scope
+The testing scope defines the boundaries of testing for the CleanCity – Waste Pickup Scheduler web application. It includes all functional, non-functional and usability aspects that ensure the application meets user requirements, performs reliably, and provides a positive user experience across devices and browsers.
+
+### In Scope testing:
 We will cover both both functional and non-functionaltesting of the CleanCity application.
 | Type                    | Area                  | Key Focus                                           | Risk Category |
 | ----------------------- | -------------------- | -------------------------------------------------- | ------------- |
