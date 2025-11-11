@@ -50,3 +50,26 @@ The profile page should display the **Full Name** entered during registration.
 The profile page displays the **username derived from the email** instead of the Full Name.
 
 ---
+🐞 BUG-002  
+**Title:** Existing user can log in with a different password than the one used during registration  
+**GitHub Link:** #29  
+**Requirement Affected:** User Login – Authentication  
+**Severity:** Critical  
+
+## Summary
+An existing user is able to log in using a completely different password than the one set during registration. This is a major security issue because it allows unauthorized access to accounts, bypassing the intended authentication mechanism.  
+
+## Steps to Reproduce
+1. Register a new user with:  
+   - Full Name: Test User  
+   - Email: user1@test.com
+   - Password: TestPass123  
+2. Log out of the account.  
+3. Attempt to log in using the same email but a completely different password (e.g. WrongPassword).  
+4. Observe that the system allows login despite the incorrect password.  
+
+## Expected Result
+The system should reject login attempts when the password does not match the one used during registration, displaying an error: "Invalid email or password."  
+
+## Actual Result
+The system allows the user to log in even with a password different from the one set during registration.
