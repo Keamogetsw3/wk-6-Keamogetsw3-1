@@ -52,7 +52,7 @@ The profile page displays the **username derived from the email** instead of the
 ---
 🐞 BUG-002  
 **Title:** Existing user can log in with a different password than the one used during registration  
-**GitHub Link:** #29  
+**GitHub Link:** [#31](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/31)  
 **Requirement Affected:** User Login – Authentication  
 **Severity:** Critical  
 
