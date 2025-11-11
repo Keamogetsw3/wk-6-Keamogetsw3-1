@@ -177,21 +177,7 @@ Phone: +1-555-9999
 | TC-004       | Email empty                  | John Doe  |                                             | ValidPass123 | Error: "Email is required"                        | Negative test case |
 | TC-005       | Password empty               | John Doe  | [valid@email.com](mailto:valid@email.com)   |              | Error: "Password is required"                     | Negative test case |
 
-
-
-- **Valid Data:**
-  - Email: valid@email.com
-  - Password: ValidPass123
-  - Confirm Password: ValidPass123
-  - Name: Valid Name
-  - Phone: +1-555-1234
-
-- **Invalid Data:**
-  - Email: invalid-email
-  - Password: short
-  - Confirm Password: mismatch
-  - Name: ""
-  - Phone: invalid-phone
+---
 
 #### **Login Form**
 | Test Case ID | Test Scenario                | Full Name | Email                                       | Password     | Expected Result                                   | Notes              |
