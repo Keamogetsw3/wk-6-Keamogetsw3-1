@@ -53,6 +53,10 @@
 ### 1.5 Role-Based Access Test Cases
 | Test Case ID | Objective                                              | Expected Result                                                 | Risk ID |
 |--------------|--------------------------------------------------------|-----------------------------------------------------------------|---------|
+| TC-019  | Verify system creates a new user account with “User” role upon successful registration | System automatically assigns the “User” role to newly registered accounts | R-004    |
+
+---
+
 
 | TC No. | Feature              | Objective                                           | Expected Result                                   | Actual Result                                         | Status     | Risk Link |
 |--------:|----------------------|----------------------------------------------------|----------------------------------------------------|-------------------------------------------------------|-------------|------------|
