@@ -79,6 +79,13 @@ The purpose of this report is to validate that the application meets its functio
 | TC-012      | Verify user cannot access dashboard after logout  | Functional | Attempting to access dashboard redirects to login page  | User redirected to login page | Pass ✅ | — | —  | Keamogetswe | 2025-11-12 |
 | TC-013      | Verify scheduling a pickup without login  | Functional | System should restrict access and redirect to login page | Pick-up succefully submitted   | Fail ❌ |[D-004](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/33)        | Major       | Keamogetswe | 2025-11-12 |
 
+---
+#### Table 4.4: User Session Management (localStorage) Test Cases
+| Test Case ID | Test Description                          | Test Type   | Expected Result                       | Actual Result                | Status  | Defect ID | Severity | Tester          | Date       |
+|--------------|-------------------------------------------|------------|---------------------------------------|------------------------------|---------|-----------|---------|----------------|-----------|
+| TC-014      | Verify session data is stored in localStorage after login    | Functional | localStorage contains session key | localStorage contains a key  `User`.  | Pass ✅  | —         | —       | Keamogetswe  | 2025-11-12 |
+
+
 
 # 🧪 Test Case Table
 
