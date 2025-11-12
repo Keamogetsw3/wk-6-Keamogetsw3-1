@@ -97,10 +97,14 @@ The purpose of this report is to validate that the application meets its functio
 | TC-020 | Verify system supports two user roles: “User” and “Admin”. each user can have only one valid role assigned| Functional | System supports two user roles: “User” and “Admin” |  System supports two user roles: “User” and “Admin” and correctly assign role| Pass ✅  | — | — | Keamogetswe  | 2025-11-12 |
 | TC-021 | Verify only Admins can access Admin Dashboard | Functional | “User” role doesnt show Admin dashboard. “Admin” role can access successfully | “User” role doesnt show Admin dashboard. “Admin” role can access successfully | Pass ✅  | — | — | Keamogetswe. Sally Trizer | 2025-11-12 |
 | TC-022 |Verify direct URL access to Admin Dashboard is blocked for non-admin users | Functional | System restricts access and redirects to “Access Denied” or “Login” page | System restricts access and shows "This page isn’t working" | Pass ✅  | — | — | Keamogetswe | 2025-11-12 |
+
 ---
 #### Table 4.6: Pickup Scheduling Test Cases
+| Test Case ID | Test Description                          | Test Type   | Expected Result                       | Actual Result                | Status  | Defect ID | Severity | Tester          | Date       |
+|--------------|-------------------------------------------|------------|---------------------------------------|------------------------------|---------|-----------|---------|----------------|-----------|
+| TC-023 | Verify system accepts submission and displays confirmation message (“Pickup scheduled successfully”) | Functional | Confirmation message showing that form is submitted and Pickup scheduled successfully |  Confirmation message displayed | Pass ✅  | — | — | Sally Trizer   | 2025-11-12 |
 
-
+--
 # 🧪 Test Case Table
 
 | Test Case ID | Test Description                            | Test Type   | Expected Result                                | Actual Result                                  | Status  | Defect ID | Severity | Tester        | Date       | 
