@@ -21,7 +21,7 @@
 | TC-003 | Register user with empty name     | Validation error displayed   | R-001      |
 | TC-004 | Register user with empty email    | Validation error displayed   | R-001      |
 | TC-005 | Register user with empty password | Validation error displayed   | R-001      |
-
+---
 #### 1.2 Login Test Cases
 
 | Test Case ID | Objective                                | Expected Result                       | Risk ID |
@@ -29,9 +29,8 @@
 | TC-006      | Login with valid credentials             | Login successful                      | R-001      |
 | TC-007      | Login with invalid password              | Error: "Invalid email or password"    | R-001      |
 | TC-008      | Login with non-existent user             | Error: "Invalid email or password"    | R-001      |
-
-
-
+----
+### 1.3 User Session Management (localStorage)
 
 
 
