@@ -49,8 +49,10 @@
 | TC-017  | Verify session data is cleared after logout            | localStorage entries removed | R-003    |
 | TC-018  | Verify access restricted when localStorage cleared manually | User is logged oute after refresh | R-003    |
 
-
-
+---
+### 1.5 Role-Based Access Test Cases
+| Test Case ID | Objective                                              | Expected Result                                                 | Risk ID |
+|--------------|--------------------------------------------------------|-----------------------------------------------------------------|---------|
 
 | TC No. | Feature              | Objective                                           | Expected Result                                   | Actual Result                                         | Status     | Risk Link |
 |--------:|----------------------|----------------------------------------------------|----------------------------------------------------|-------------------------------------------------------|-------------|------------|
