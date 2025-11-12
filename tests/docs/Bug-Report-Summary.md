@@ -50,7 +50,7 @@ The profile page should display the **Full Name** entered during registration.
 The profile page displays the **username derived from the email** instead of the Full Name.
 
 ---
-🐞 BUG-002  
+###🐞 BUG-002  
 **Title:** Existing user can log in with a different password than the one used during registration  
 **GitHub Link:** [#31](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/31)  
 **Requirement Affected:** User Login – Authentication  
@@ -73,3 +73,29 @@ The system should reject login attempts when the password does not match the one
 
 ## Actual Result
 The system allows the user to log in even with a password different from the one set during registration.
+
+---
+🐞 BUG-003  
+**Title:** System allows login with unregistered credentials  
+**GitHub Link:** [#32](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/32)  
+**Requirement Affected:** User Login – Authentication Validation  
+**Severity:** Critical  
+
+## Summary
+The system successfully logs in users even when the provided email and password do not belong to any registered account. This issue completely bypasses the authentication process and poses a severe security risk, as unauthorized users can gain access without registration.  
+
+## Steps to Reproduce
+1. Open the login page.  
+2. Enter credentials that do not exist in the system, for example:  
+   - Email: nonexist@test.com  
+   - Password: AnyPassword  
+3. Click **Login**.  
+4. Observe that the system logs the user in successfully.  
+
+## Expected Result
+The system should validate user credentials against the database and display an error message:  
+> “Invalid email or password.”  
+
+## Actual Result
+The system allows login and grants access even though the credentials are not registered in the database.
+
