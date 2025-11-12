@@ -163,6 +163,18 @@ This file contains test data and scenarios for various features of the project, 
 | TC-008      | Invalid login (non-existent user) | nonexist@test.com | AnyPassword    | Error: "Invalid email or password"    | Negative test case |
 
 #### **Pickup Scheduling Form**
+
+| Test Case ID | Test Scenario                     | Full Name           | Email         | Location                       | Waste Type             |    Date    | Instructions     |
+|--------------|----------------------------------|-------------------|----------------|---------------------------------------|-------------------|
+| TC-023      | Valid pickup request                       |   |    |                 |  |
+| TC-024      | Invalid pickup request  (invalid data)     |  |   |   |  |
+| TC-025      | Invalid pickup request  (Yesterday’s date) |  |    |   |  |
+| TC-025      | Invalid pickup request  (empty Waste Type) | |   |   |  |
+| TC-025      | Invalid pickup request  (empty Quantity) | |   |   |  |
+| TC-025      | Invalid pickup request  (Very long text (>200 chars)) | |   |   |  |
+
+
+
 | **Data Type**    | **Date**                                | **Waste Type** | **Quantity** | **Instructions**                                                                                                                                                  |
 | ---------------- | --------------------------------------- | -------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Valid Data**   | Tomorrow’s date (e.g., **2025-11-13**)  | General        | Medium       | “Please ring doorbell”                                                                                                                                            |
