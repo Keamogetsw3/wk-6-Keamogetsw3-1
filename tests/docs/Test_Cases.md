@@ -28,8 +28,8 @@
 |--------------|-----------------------------------------|---------------------------------------|-----------|
 | TC-006      | Login with valid credentials             | Login successful                      | R-001      |
 | TC-007      | Login with invalid password              | Error: "Invalid email or password"    | R-001      |
-| TC-008      | Login with empty Email             | Error: "Empty field; enter email"    | R-001      |
-| TC-009      | Login with empty Password              | Error: "Empty field; enter password"    | R-001      |
+| TC-008      | Login with empty Email             | System should display email required error    | R-001      |
+| TC-009      | Login with empty Password              | System should display password required error | R-001      |
 | TC-010      | Login with non-existent user             | Error: "Invalid email or password"    | R-001      |
 ---
 ### 1.3 Logout Test Cases
