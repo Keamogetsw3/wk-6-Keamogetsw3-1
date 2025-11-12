@@ -35,7 +35,7 @@
 ### 1.3 Logout Test Cases
 | Test Case ID | Objective                                      | Expected Result                                               | Risk ID |
 |--------------|------------------------------------------------|---------------------------------------------------------------|---------|
-| TC-011       | Verify user can successfully log out           | User is logged out and redirected to the Home page            | R001    |
+| TC-011       | Verify user can successfully log out           | User is logged out and redirected to the Home page           | R-001    |
 | TC-012       | Verify user cannot access dashboard after logout | Attempting to access dashboard redirects to login page     | R001    |
 | TC-013      | Verify scheduling a pickup without login       | System should restrict access and redirect to login page      | R001    |
 
@@ -46,6 +46,7 @@
 | TC-014  | Verify session data is stored in localStorage after login | localStorage contains session key | R003    |
 | TC-015  | Verify user session persists after page refresh        | User remains logged in; localStorage values persist | R003    |
 | TC-016  | Verify session persists after reopening browser tab    | User remains logged in; session data still stored in localStorage | R003|
+| TC-017  | Verify session data is cleared after logout            | localStorage entries removed | R003    |
 
 
 
