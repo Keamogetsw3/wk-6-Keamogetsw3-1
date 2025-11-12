@@ -164,14 +164,15 @@ This file contains test data and scenarios for various features of the project, 
 
 #### **Pickup Scheduling Form**
 
-| Test Case ID | Test Scenario                                 | Full Name    | Email                  | Location | Waste Type | Date       | Instructions                                                                 |
-|--------------|-----------------------------------------------|--------------|------------------------|---------|------------|-----------|----------------------------------------------------------------------------|
-| TC-023 | Valid pickup request                             |  Check User | checkuser@email.com | Nairobi |            |    |                                                                            |
-| TC-024 | Invalid pickup request (invalid data)           |  Check User | checkuser@email.com | *(empty)*  | *(empty)* | *(empty)*  |  *(empty)* |
-| TC-025 | Invalid pickup request (Yesterday’s date)       |  Check User | checkuser@email.com | Nairobi |            |           |                                                                            |
-| TC-026 | Invalid pickup request (empty Waste Type)       |   Check User   | checkuser@email.com | Nairobi | *(empty)* |           |                                                                            |
-| TC-027 | Invalid pickup request (empty Quantity)         |  Check User | checkuser@email.com | Nairobi |            |           |                                                                            |
-| TC-028 | Invalid pickup request (Very long text >200 chars) |  Check User | checkuser@email.com | Nairobi |            |           |                                                                            |
+| Test Case ID | Test Scenario                                 | Full Name   | Email                  | Location | Waste Type | Date                                     | Instructions                     |
+|--------------|-----------------------------------------------|------------|------------------------|---------|------------|-----------------------------------------|---------------------------------|
+| TC-023       | Valid pickup request                           | Check User | checkuser@email.com    | Nairobi | General    | Tomorrow’s date (e.g., **2025-11-14**) | “Please ring doorbell”          |
+| TC-024       | Invalid pickup request (no data)              | *(empty)*  | *(empty)*              | *(empty)* | *(empty)* | *(empty)*                               | *(empty)*                        |
+| TC-025       | Invalid pickup request (Yesterday’s date)     | Check User | checkuser@email.com    | Nairobi | General    | Yesterday’s date (e.g., **2025-11-12**) | “Please ring doorbell”          |
+| TC-026       | Invalid pickup request (empty Waste Type)     | Check User | checkuser@email.com    | Nairobi | *(empty)*  | Tomorrow’s date (e.g., **2025-11-14**) | “Please ring doorbell”          |
+| TC-027       | Invalid pickup request (empty Location)       | Check User | checkuser@email.com    | *(empty)* | General   | Tomorrow’s date (e.g., **2025-11-14**) | *(empty)*                        |
+| TC-028       | Invalid pickup request (Very long text >200 chars) | Check User | checkuser@email.com | Nairobi | General   | Tomorrow’s date (e.g., **2025-11-14**) | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...    |
+
 
 
 
