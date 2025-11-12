@@ -14,7 +14,7 @@
 
 #### 1.1 Registration Test Case
 
-| Test Case ID | Objective                         | Expected Result              | Risk Link |
+| Test Case ID | Objective                         | Expected Result              | Risk ID |
 | ----- | --------------------------------- | ---------------------------- | --------- |
 | TC-001 | Register new user with valid data | Account created successfully | R-001      |
 | TC-002 | Register user with invalid email  | Validation error displayed   | R-001      |
@@ -24,7 +24,7 @@
 
 #### 1.2 Login Test Cases
 
-| Test Case ID | Objective                                | Expected Result                       | Risk Link |
+| Test Case ID | Objective                                | Expected Result                       | Risk ID |
 |--------------|-----------------------------------------|---------------------------------------|-----------|
 | TC-006      | Login with valid credentials             | Login successful                      | R-001      |
 | TC-007      | Login with invalid password              | Error: "Invalid email or password"    | R-001      |
