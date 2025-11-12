@@ -75,7 +75,7 @@ The system should reject login attempts when the password does not match the one
 The system allows the user to log in even with a password different from the one set during registration.
 
 ---
-🐞 BUG-003  
+##🐞 BUG-003  
 **Title:** System allows login with unregistered credentials  
 **GitHub Link:** [#32](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/32)  
 **Requirement Affected:** User Login – Authentication Validation  
