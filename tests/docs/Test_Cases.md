@@ -68,6 +68,13 @@
 | Test Case ID | Objective                                              | Expected Result                                                 | Risk ID |
 |--------------|--------------------------------------------------------|-----------------------------------------------------------------|---------|
 | TC-023  | Verify system accepts submission and displays confirmation message (“Pickup scheduled successfully”) | Confirmation message showing that form is submitted and Pickup scheduled successfully | R-002 |
+| TC-024  | Invalid pickup request (no data)                     | System shows validation errors for empty fields       | R-002   |
+| TC-025  | Invalid pickup request (Yesterday’s date)            | System does not allow scheduling for past date        | R-002   |
+| TC-026  | Invalid pickup request (empty Waste Type)            | System shows error indicating Waste Type is required | R-002   |
+| TC-027  | Invalid pickup request (empty Location)              | System shows error indicating Location is required   | R-002   |
+| TC-028  | Invalid pickup request (Very long text >200 chars)   | System truncates input or shows error for long text  | R-002   |
+| FR-029  | The system shall prevent scheduling multiple pickups for the same date | System prevents creating duplicate pickups for the same date | R-002   |
+
 
 ---
 ## Functional Test Cases - Boundary and Edge Case Test Cases
