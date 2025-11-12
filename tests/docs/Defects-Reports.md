@@ -8,7 +8,7 @@
 |------|-----------------------------------------------------------|---------|---------|------------|-------------|
 | D-001 | Profile shows email instead of full name                  | Minor | R00     | Open       | [Issue #28](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/28)      |
 | D-002 | Existing user can login with a completely invalid password | Critical  | R001    | Open       | [Issue #31](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/31)       |
-| D=003 | [Previous Major defect placeholder]                       | Major   | R003    | Open       | Link        |
+| D-003 | System allows login with unregistered credentials                       | Critical   | R001    | Open       |  [Issue #32](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/32)        |
 
 | ID   | Issue Title                               | Severity  | Risk ID | Status             | GitHub Link |
 |------|-------------------------------------------|----------|--------|------------------|------------|
