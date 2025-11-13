@@ -112,6 +112,20 @@ The purpose of this report is to validate that the application meets its functio
 | TC-029  | The system shall prevent scheduling multiple pickups for the same date | Functional | System prevents creating duplicate pickups for the same date |               |        |           |         |        |           |
 
 --
+
+###
+| Test Case ID | Objective                                                   | Test Type | Expected Result                                               | Actual Result                                       | Status     | Defect ID | Severity | Tester | Date |
+| ---------------- | -------------------------------------------------------------------------- | ------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | --------------- | ------------- | ------------ | ----------- | ---------- |
+| TC-030  | Verify the system displays the user’s pickup request history.              | Functional    | User can view all past and current pickup requests with details.    | |    | —             | —            | |  |
+| TC-031   | Verify completed and cancelled requests appear in history.                 | Functional    | Completed and cancelled requests are shown correctly.               ||  |  | | | 2025-11-13 |
+| TC-032   | Verify user can cancel a pending pickup request.                           | Functional    | Pending request changes status to “Cancelled.”                      |   |  | —             | —            | | 2025-11-13 |
+| TC-033  | Verify completed or cancelled requests cannot be cancelled again.          | Functional    | System prevents double cancellation.                                | As expected – warning message displayed.                |     | —             | —            | | 2025-11-13 |
+| TC-034   | Verify modification of pickup details at least 24 hours before schedule.   | Functional    | User can update details successfully.                               |  |       | —             | —            | | 2025-11-13 |
+| TC-035 | Verify modification not allowed within 24 hours of scheduled time.         | Functional    | System prevents modification and shows warning.                     |    |   |  | | | 2025-11-13 |
+| TC-036   | Verify system displays correct request status for each pickup.             | Functional    | Status correctly shows Pending, Confirmed, Completed, or Cancelled. | |        | —             | —            | Keamogetswe | 2025-11-13 |
+| TC-037 | Verify request status updates automatically after completion/cancellation. | Functional    | Status updates dynamically after change.                            |  | |   |          |  | 2025-11-13 |
+
+
 # 🧪 Test Case Table
 
 | Test Case ID | Test Description                            | Test Type   | Expected Result                                | Actual Result                                  | Status  | Defect ID | Severity | Tester        | Date       | 
@@ -122,6 +136,8 @@ The purpose of this report is to validate that the application meets its functio
 | TC003         | Verify login with valid password            | Functional   | User should be logged in successfully           | User successfully logged in                    | Passed   | —          | —         | Keamogetswe M | 2025-11-10 |
 | TC004         | Verify registration with valid credentials  | Functional   | User should be registered successfully          | User successfully registered                   | Passed   | —          | —         | Keamogetswe M | 2025-11-10 |
 | TC005         | Verify login with valid password            | Functional   | User should be logged in successfully           | User successfully logged in                    | Passed   | —          | —         | Keamogetswe M | 2025-11-10 |
+
+---
 
 
 
