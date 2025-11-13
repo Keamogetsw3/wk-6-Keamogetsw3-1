@@ -88,6 +88,19 @@
 | FC-037 | Verify that request status updates automatically after completion or cancellation.                            | The status changes dynamically according to the action taken (e.g., from Confirmed → Completed).      | R-002 |
 
 
+---
+
+
+---
+### 📞 Support and Maintenance
+### Table: Help System
+| Test Case ID    | Objective                                                                                                     | Expected Result                                                                                       | Risk ID   |
+| --------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | --------- |
+| FC-093 |  Ensure users can access the FAQ section and all content is displayed correctly. | FAQ page loads with all questions and answers correctly |  |
+| FC-094 | Verify that contact information for support is displayed |  |  |
+
+
+
 
 ---
 ## Functional Test Cases - Boundary and Edge Case Test Cases
@@ -157,6 +170,13 @@
 
 ---
 
+### 📞 Support and Maintenance
+### Table: Help System
+|--------------|----------|------------|----------------|----------------|---------|-----------|
+| TC-  | Registration | Enter name with minimum characters (2) | Accepted and account created | TBD | TBD | R002 |
+| TC- | Registration | Enter name with maximum characters (50) | Accepted and account created | TBD | TBD | R002 |
+| TC027 | Registration | Enter email with special characters | Accepted if valid format | TBD | TBD | R002 |
+---
 ### **5. Boundary and Edge Case Test Cases**
 
 | TC (number) | Feature | Objective | Expected Result | Actual Result | Status | Risk Link |
@@ -225,6 +245,13 @@
 | TC056 | Pickup Scheduling | Test in Chrome, Firefox, Safari, Edge | Requests can be created and viewed in all browsers | TBD | TBD | R017 |
 | TC057 | Blog Module | Test in Chrome, Firefox, Safari, Edge | Blog posts render correctly in all browsers | TBD | TBD | R017 |
 | TC058 | Community Module | Test in Chrome, Firefox, Safari, Edge | Posts, comments, and likes function in all browsers | TBD | TBD | R017 |
+
+---
+
+
+
+### 📞 Support and Maintenance
+### Table: Help System
 
 ---
 
