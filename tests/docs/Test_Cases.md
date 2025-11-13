@@ -73,7 +73,20 @@
 | TC-026  | Invalid pickup request (empty Waste Type)            | System shows error indicating Waste Type is required | R-002   |
 | TC-027  | Invalid pickup request (empty Location)              | System shows error indicating Location is required   | R-002   |
 | TC-028  | Invalid pickup request (Very long text >200 chars)   | System truncates input or shows error for long text  | R-002   |
-| FR-029  | The system shall prevent scheduling multiple pickups for the same date | System prevents creating duplicate pickups for the same date | R-002   |
+| FC-029  | The system shall prevent scheduling multiple pickups for the same date | System prevents creating duplicate pickups for the same date | R-002   |
+
+### 2.2 Request Management Test Cases
+| Test Case ID    | Objective                                                                                                     | Expected Result                                                                                       | Risk ID   |
+| --------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | --------- |
+| FC-030 | Verify that the system displays the user’s pickup request history.                                            | User can view a list of all past and current pickup requests with details (date, waste type, status). | R-002 |
+| FC-031 | Verify that completed and cancelled requests appear correctly in the history.                                 | The system includes all request types (Completed, Cancelled, etc.) in the history view.               | R-002 |
+| FC-032 | Verify that the user can cancel a pending pickup request.                                                     | The system successfully cancels the request and updates the status to “Cancelled.”                    | R-002 |
+| FC-033 | Verify that the system does not allow cancelling completed or already cancelled requests.                     | User receives an appropriate error or message indicating cancellation is not possible.                | R-002 |
+| FC-034 | Verify that users can modify pickup details (e.g., date, waste type) at least 24 hours before scheduled time. | The system allows modification and updates the request details successfully.                          | R-002 |
+| FC-035 | Verify that users cannot modify pickup details within 24 hours of the scheduled time.                         | The system prevents modification and displays an appropriate warning message.                         | R-002 |
+| FC-036 | Verify that the system displays correct request status for each pickup request.                               | Status is displayed as Pending, Confirmed, Completed, or Cancelled, based on the request’s state.     | R-002 |
+| FC-037 | Verify that request status updates automatically after completion or cancellation.                            | The status changes dynamically according to the action taken (e.g., from Confirmed → Completed).      | R-002 |
+
 
 
 ---
