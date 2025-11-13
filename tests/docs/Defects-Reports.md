@@ -10,7 +10,7 @@
 | D-002 | Existing user can login with a completely invalid password | Critical  | R001    | Open       | [Issue #31](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/31)       |
 | D-003 | System allows login with unregistered credentials                       | Critical   | R001    | Open       |  [Issue #32](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/32)        |
 | D-004 | Pick-up request submitted without user registration  | Major | R001  | Open | [Issue #33](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/33) |
-| |  | Major    | R002   | Open / In Progress / Resolved / Closed | [Link](#) |
+| D-005 | The pickup is scheduled even with invalid date | Medium    | R00-2   | Open | [Link](#) |
 | |  | Major | R003 | Open / In Progress / Resolved / Closed | [Link](#) |
 
 ## Non-Functional Test Defects
