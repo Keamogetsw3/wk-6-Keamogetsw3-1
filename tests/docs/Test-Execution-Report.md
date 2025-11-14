@@ -80,3 +80,8 @@ The purpose of this report is to validate that the application meets its functio
 ## **📊 Non-Functional Testing**
 ### Table 4: Executed Test Cases, their results and key observations
 ---
+#### Table 4.1: Responsive Design (📱 User Interface Requirements )
+| Test Case ID | Objective                                                   | Test Type | Expected Result                                               | Actual Result                                       | Status     | Defect ID | Severity | Tester | Date |
+| ---------------- | -------------------------------------------------------------------------- | ------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | --------------- | ------------- | ------------ | ----------- | ---------- |
+| TC0  |  | Non-Functional |  | |  | — | —  | |  |
+| TC0  |  | Non-Functional |  | |  | — | —  | |  |
