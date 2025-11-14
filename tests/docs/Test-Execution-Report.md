@@ -94,5 +94,8 @@ The purpose of this report is to validate that the application meets its functio
 | TC0  |  | Non-Functional |  | |  | — | —  | |  |
 | TC0  |  | Non-Functional |  | |  | — | —  | |  |
 
-
-
+#### Table 4. Response Time (🚀) Performance Requirements
+| Test Case ID | Objective                                                   | Test Type | Expected Result                                               | Actual Result                                       | Status     | Defect ID | Severity | Tester | Date |
+| ---------------- | -------------------------------------------------------------------------- | ------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | --------------- | ------------- | ------------ | ----------- | ---------- |
+| TC0  |  | Non-Functional |  | |  | — | —  | |  |
+| TC0  |  | Non-Functional |  | |  | — | —  | |  |
