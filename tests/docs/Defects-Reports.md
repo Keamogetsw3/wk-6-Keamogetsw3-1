@@ -12,15 +12,14 @@
 | D-005 | The pickup is scheduled even with invalid date             | Medium    | R003    | Open   | [Issue #34](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/34) | TC-025       |
 | D-006 | System allows submission of pickup request with instructions exceeding 200 characters             | Medium    | R003    | Open   | [Issue #41](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/41) | TC-028       |
 | D-007 | System allows scheduling multiple pickups for the same date   | Medium    | R003    | Open   | [Issue #42](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/42) | TC-029       |
-| D-008 | System allows scheduling multiple pickups for the same date   | Medium    | R003    | Open   | [Issue #55](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/55) | TC-000       |
 
 
 ## Non-Functional Test Defects
 
 | ID   | Issue Title                               | Severity  | Risk ID | Status             | GitHub Link |
 |------|-------------------------------------------|----------|--------|------------------|------------|
-|  |     | Major    | R004   | Open / In Progress / Resolved / Closed | [Link](#) |
-| ]|  | Critical | R005 | Open / In Progress / Resolved / Closed | [Link](#) |
+| D-008 | Menu bar expands excessively when resizing window, hiding all other content | Medium    | R008    | Open   | [Issue #55](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/55) | TC-000  |
+| D-009 | Low Contrast Text Fails WCAG 2.1 AA | Major| R008 | Open| [Issue #56](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/56) |
 
 ## Accessibility Test Defects
 
