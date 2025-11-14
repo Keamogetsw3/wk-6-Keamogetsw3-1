@@ -109,6 +109,9 @@
 This section focuses on testing the system's non-functional requirements, which define how the system performs rather than what it does. It includes aspects such as performance, usability, reliability, security, and compatibility. Non-functional test cases ensure that the system meets quality standards and provides a good user experience under expected conditions.
 
 ------
+### 📱 User Interface Requirements
+
+---
 ### 🚀 Performance Requirements
 
 
