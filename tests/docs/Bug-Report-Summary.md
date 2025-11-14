@@ -21,7 +21,7 @@ This document provides a summary of all defects identified during manual and aut
 **Title:** Profile shows email username instead of Full Name after registration  
 **GitHub Link:** #28  
 **Requirement Affected:** User Registration – Profile Display  
-**Severity:** Low  
+**Severity:** Comestic  
 **Environment:** Development, Google Chrome, Windows 10  
 
 #### Summary
@@ -201,4 +201,29 @@ The system should **prevent creating duplicate pickups** for the same date and d
 
 #### Actual Result
 The system allows **two or more pickups** to be scheduled on the same date.
+
+
+---
+
+### 🐞 BUG-008  
+**Title:** Menu bar expands excessively when resizing window, hiding all other content 
+**GitHub Link:** [D-008](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/55) 
+**Requirement Affected:**  Responsive Design  
+**Severity:** Major   
+**Environment:** Chrome / Desktop 
+**Type:** Non-Functional – Usability/Compatibility 
+
+#### Summary 
+When the browser window is resized to smaller widths, the menu bar grows vertically and occupies the entire screen. No page content is visible at the smallest sizes.
+
+#### Steps to Reproduce 
+1. Open the application in a desktop browser.  
+2. Slowly resize the browser window horizontally.  
+3. Observe the menu bar increasing in size and taking over the entire viewport.
+
+#### Expected Result 
+The layout should adapt proportionally. The menu should collapse into a hamburger menu or shrink, and page content should remain visible.
+
+#### Actual Result 
+Menu bar expands uncontrollably, blocking all other content on small window sizes.
 
