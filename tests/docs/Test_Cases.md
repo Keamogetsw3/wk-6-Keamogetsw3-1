@@ -112,6 +112,17 @@ This section focuses on testing the system's non-functional requirements, which 
 ### 📱 User Interface Requirements
 ---
 ### Table .1: Test cases for Responsive Design
+| Test Case ID |  Objective | Expected Result | Risk Link  |
+|--------------|------------|----------------|----------------|
+|TC-0 | Verify responsiveness when resizing the browser window dynamically | Layout adapts in real-time without breaking or losing functionality | R-008 |
+
+
+### Table .1: Test cases for Responsive Design
+| Test Case ID | Feature | Objective | Expected Result | Risk Link  |
+|--------------|----------|------------|----------------|----------------|
+|TC-0 |  | |  |
+
+### Table .1: Test cases for Responsive Design
 | Test Case ID | Feature | Objective | Expected Result | Risk Link  |
 |--------------|----------|------------|----------------|----------------|
 |TC-0 |  | |  |
