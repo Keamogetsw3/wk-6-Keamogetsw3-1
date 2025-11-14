@@ -156,3 +156,27 @@ The system **accepts the request with a past date**, allowing an invalid pickup 
 
 ---
 
+# 🐞 BUG-006
+
+**Title:** System allows submission of pickup request with instructions exceeding 200 characters  
+**GitHub Link:** [Issue #41](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/41) 
+**Requirement Affected:** Pickup Request Input Validation  
+**Severity:** Medium  
+**Environment:** Development, Google Chrome, Windows 10  
+
+## Summary
+When a user submits a pickup request with instructions longer than 200 characters, the system accepts the request without any validation or truncation. This can lead to potential data quality issues and display problems in the UI, as the system is not enforcing the expected character limit.  
+
+## Steps to Reproduce
+1. Navigate to the Pickup Request form.  
+2. Enter a very long text (>200 characters) in the Instructions field.  
+3. Submit the request.  
+4. Observe that the system successfully accepts the request without errors.  
+
+## Expected Result
+The system should either truncate the instructions to 200 characters or display an error message preventing submission of overly long text.  
+
+## Actual Result
+The pickup request is successfully submitted with the full text exceeding 200 characters.  
+
+
