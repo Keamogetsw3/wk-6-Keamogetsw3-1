@@ -121,9 +121,9 @@ This section focuses on testing the system's non-functional requirements, which 
 
 
 ### Table .2: Test cases for Accessibility
-| Test Case ID | Feature | Objective | Expected Result | Risk Link  |
-|--------------|----------|------------|----------------|----------------|
-|TC-0 | Verify contrast ratio meets WCAG 2.1 AA (minimum 4.5:1 for text) | All text and UI elements meet required contrast ratios | R-008 |
+| Test Case ID | Objective | Expected Result | Risk Link  |
+|--------------|----------|------------|----------------|
+|TC-0 |Verify contrast ratio meets WCAG 2.1 AA (minimum 4.5:1 for text) | All text and UI elements meet required contrast ratios | R-008|
 |TC-0 |  | | R-008 |
 |TC-0 |  | | R-008 |
 |TC-0 |  | | R-008 |
