@@ -70,13 +70,13 @@ The purpose of this report is to validate that the application meets its functio
 | TC035 | Verify modification not allowed within 24 hours of scheduled time.         | Functional    | System prevents modification and shows warning.                     |    |   |  | | | 2025-11-13 |
 | TC036   | Verify system displays correct request status for each pickup.             | Functional    | Status correctly shows Pending, Confirmed, Completed, or Cancelled. | |        | —             | —            | Keamogetswe | 2025-11-13 |
 | TC037 | Verify request status updates automatically after completion/cancellation. | Functional    | Status updates dynamically after change.                            |  | |   |          |  | 2025-11-13 |
-
-## ** Functional Testing **
+---
+## **Functional Testing**
 ### Table 2: Boundary and Edge Case Test Cases, their results and key observations
-
-## ** Functional Testing **
+---
+## **Functional Testing**
 ### Table 3: Automatically Executed Test Cases, their results and key observations
 ---
-## ** 📊 Non-Functional Testing**
+## **📊 Non-Functional Testing**
 ### Table 4: Executed Test Cases, their results and key observations
 ---
