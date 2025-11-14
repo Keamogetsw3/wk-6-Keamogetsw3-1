@@ -62,10 +62,10 @@ The purpose of this report is to validate that the application meets its functio
 | TC-023  | Valid pickup request - Verify system accepts submission and displays confirmation message (“Pickup scheduled successfully”)   | Functional | Pickup request is successfully created | Confirmation message displayed   |    Pass ✅   | —  | —  | Sally Trizer  | 2025-11-12 |
 | TC-024  | Invalid pickup request (no data)                     | Functional | System shows validation errors for empty fields    | System shows validation errors for empty fields  |   Pass ✅ |  —  |  —  |   Keamogetswe   | 2025-11-13 |
 | TC-025  | Invalid pickup request (Yesterday’s date)            | Functional | System does not allow scheduling for past date   | Confirmation message displayed  | Fail ❌ | [D-005](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/)       |  Medium  |    Keamogetswe      |    2025-11-13       |
-| TC-026  | Invalid pickup request (empty Waste Type)            | Functional | System shows error indicating Waste Type is required |               |        |           |         |        |           |
-| TC-027  | Invalid pickup request (empty Location)              | Functional | System shows error indicating Location is required   |               |        |           |         |        |           |
-| TC-028  | Invalid pickup request (Very long text >200 chars)   | Functional | System truncates input or shows error for long text  |               |        |           |         |        |           |
-| TC-029  | The system shall prevent scheduling multiple pickups for the same date | Functional | System prevents creating duplicate pickups for the same date |               |        |           |         |        |           |
+| TC-026  | Invalid pickup request (empty Waste Type) | Functional | System shows error indicating Waste Type is required |  System showed error indicating Waste Type is required | Pass ✅  | — | — | Keamogetswe  |  2025-11-14  |
+| TC-027  | Invalid pickup request (empty Location)   | Functional | System shows error indicating Location is required |   System showed error indicating Location is required |  Pass ✅  | — |  —  | Keamogetswe  | 2025-11-14  |
+| TC-028  | Invalid pickup request (Very long text >200 chars)   | Functional | System truncates input or shows error for long text  |      Confirmation message displayed   |  Fail ❌|           |         |  Keamogetswe  | 2025-11-14  |
+| TC-029  | The system shall prevent scheduling multiple pickups for the same date | Functional | System prevents creating duplicate pickups for the same date |   Confirmation message displayed   | Fail ❌ |           |         |  Keamogetswe  | 2025-11-14   |
 
 --
 
