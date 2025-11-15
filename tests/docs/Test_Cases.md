@@ -124,7 +124,7 @@ This section focuses on testing the system's non-functional requirements, which 
 | Test Case ID | Objective | Expected Result | Risk Link  |
 |--------------|----------|------------|----------------|
 |TC-0 |Verify contrast ratio meets WCAG 2.1 AA (minimum 4.5:1 for text) | All text and UI elements meet required contrast ratios | R-008|
-|TC-0 |  | | R-008 |
+|TC-0 | Verify zooming to 200% does not break layout | Page remains usable and responsive at 200% zoom | R-008 |
 |TC-0 |  | | R-008 |
 |TC-0 |  | | R-008 |
 
