@@ -105,6 +105,13 @@ The purpose of this report is to validate that the application meets its functio
 | TC0  |  | Non-Functional |  | |  | — | —  | |  |
 | TC0  |  | Non-Functional |  | |  | — | —  | |  |
 
+#### Table 4.2: Accessibility (📱 User Interface Requirements ) - (SonarQube )
+| Test Case ID | Objective                                                   | Test Type | Expected Result                                               | Actual Result                                       | Status     | Defect ID | Severity | Tester | Date |
+| ---------------- | -------------------------------------------------------------------------- | ------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | --------------- | ------------- | ------------ | ----------- | ---------- |
+| TC0  | Verify that form fields include labels or ARIA-labels | Non-Functional |  | |  | — | —  | |  |
+| TC0  |  | Non-Functional |  | |  | — | —  | |  |
+| TC0  |  | Non-Functional |  | |  | — | —  | |  |
+
 ----
 
 #### Table 4. Response Time (🚀 Performance Requirements)
