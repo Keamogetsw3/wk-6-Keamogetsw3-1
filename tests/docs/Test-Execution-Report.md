@@ -93,7 +93,7 @@ The purpose of this report is to validate that the application meets its functio
 | Test Case ID | Objective                                                   | Test Type | Expected Result                                               | Actual Result                                       | Status     | Defect ID | Severity | Tester | Date |
 | ---------------- | -------------------------------------------------------------------------- | ------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | --------------- | ------------- | ------------ | ----------- | ---------- |
 | TC0  | Verify contrast ratio meets WCAG 2.1 AA (minimum 4.5:1 for text) | Non-Functional (Manually) | All text and UI elements meet required contrast ratios | Text readable; no low contrast detected | Pass ✅  | — | — | Sally Trizer  | 2025-11-12 |
-| TC0  | Verify zooming to 200% does not break layout | Non-Functional | Page remains usable and responsive at 200% zoom | |  | — | —  | |  |
+| TC0  | Verify zooming to 200% does not break layout | Non-Functional | Page remains usable and responsive at 200% zoom | When zoomed to 200%, the menu enlarges excessively, pushing or hiding other content. Only the menu is visible at this zoom level | Fail ❌ | [D-010](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/59)  | Medium  | Keamogetswe | 2025-11-14 |
 | TC0  |  | Non-Functional |  | |  | — | —  | |  |
 | TC0  |  | Non-Functional |  | |  | — | —  | |  |
 
