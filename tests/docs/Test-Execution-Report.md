@@ -154,6 +154,15 @@ The purpose of this report is to validate that the application meets its functio
 
 # 🌐 Cross-Browser Compatibility Testing
 
+# Browser Compatibility Test Report
+
+| Test Case ID | Objective | Test Type | Expected Result | Actual Result | Status | Defect ID | Severity | Tester | Date |
+|--------------|-----------|-----------|-----------------|---------------|--------|-----------|----------|--------|------|
+| TC- | Verify system works on Google Chrome (latest 2 versions) | Non-Functional | Application functions correctly without layout issues, errors, or crashes | Application works as expected | Pass ✅ | — | — | Sally Trizer  | 2025-11-11 |
+| TC- | Verify system works on Mozilla Firefox (latest 2 versions) | Non-Functional | Application functions correctly without layout issues, errors, or crashes | Application works as expected | Pass ✅ | — | Sally Trizer | 2025-11-12  |
+| TC- | Verify system works on Microsoft Edge (latest 2 versions) | Non-Functional | Application functions correctly without layout issues, errors, or crashes | Application works as expected | Pass ✅ | — | — | Sally Trizer | 2025-11-12 |
+
+
 | TC No. | Feature              | Objective                                 | Expected Result                                      | Actual Result                                                      | Status | Risk Link |
 |--------|-----------------------|--------------------------------------------|------------------------------------------------------|---------------------------------------------------------------------|--------|-----------|
 | TC021  | Registration          | Register new user                         | Account created successfully                         | Successfully registered new user in Chrome                         | ✅ Pass | R002      |
