@@ -87,6 +87,14 @@
 | TC-036 | Verify that the system displays correct request status for each pickup request.                               | Status is displayed as Pending, Confirmed, Completed, or Cancelled, based on the request’s state.     | R-002 |
 | TC-037 | Verify that request status updates automatically after completion or cancellation.                            | The status changes dynamically according to the action taken (e.g., from Confirmed → Completed).      | R-002 |
 
+### 🔒  Data Management Requirements
+#### Data Persistence
+| Test Case ID | Objective | Expected Result | Risk Link  |
+|--------------|------------|----------------|----------------|
+|TC | Verify that user data is stored in localStorage | User data should be present in localStorage in the correct format |  |
+|TC | Verify data persists across browser sessions | Previously stored user data should be available and correctly displayed |  |
+| |  | |  |
+| |  | |  |
 
 ---
 
@@ -155,7 +163,26 @@ This section focuses on testing the system's non-functional requirements, which 
 |TC-0 | Verify search bar visibility and returns relevant results | Search bar is visible and shows results relevant to the keyword are displayed | R013 |
 
 ---
+### 🔒  Data Management Requirements
+#### Data Persistence
+| Test Case ID | Objective | Expected Result | Risk Link  |
+|--------------|------------|----------------|----------------|
+|TC | Verify that the system shall handle localStorage limitations gracefully| System should show a clear error message or handle overflow without crashing |  |
+
+#### Data Validation
+| Test Case ID | Feature | Objective | Expected Result | Risk Link  |
+|--------------|----------|------------|----------------|----------------|
+| |  | |  |
+
+---
+
 ### 🚀 Performance Requirements
+####
+
+| Test Case ID | Feature | Objective | Expected Result | Risk Link  |
+|--------------|----------|------------|----------------|----------------|
+| |  | |  |
+
 
 | Test Case ID | Feature | Objective | Expected Result | Risk Link  |
 |--------------|----------|------------|----------------|----------------|
@@ -208,14 +235,7 @@ This section focuses on testing the system's non-functional requirements, which 
 
 ---
 
-### **3. Accessibility Test Cases**
 
-| TC No.    | Feature        | Objective                                | Expected Result                                                 | Actual Result                                                             | Status | Risk Link |
-| :-------- | :------------- | :--------------------------------------- | :-------------------------------------------------------------- | :------------------------------------------------------------------------ | :----- | :-------- |
-| **TC017** | Awareness Page | Screen reader reads images               | Images have descriptive alt text                                | `alt` attribute missing for awareness page images                         | ❌ Fail | R010      |
-| **TC018** | Forms          | Keyboard navigation on registration form | All fields accessible and focusable using **Tab** and **Enter** | Tabbing works smoothly and Enter button functions correctly on login page | ✅ Pass | R010      |
-| **TC019** | Forms          | Color contrast check                     | Meets WCAG 2.1 AA standards (contrast ratio ≥ 4.5:1)            | Text readable; no low contrast detected                                   | ✅ Pass | R010      |
-| **TC020** | Buttons        | Minimum touch target size                | Buttons are ≥ 44x44px on mobile                                 | Register: 80x48 ✅, Login: 76x45 ✅, Comment: 50x44 ✅                       | ✅ Pass | R010      |
 
 
 ---
