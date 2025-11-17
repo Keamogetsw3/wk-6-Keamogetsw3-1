@@ -58,7 +58,8 @@ The purpose of this report is to validate that the application meets its functio
 | TC028 |Verify direct URL access to Admin Dashboard is blocked for non-admin users | Manual | System restricts access and redirects to “Access Denied” or “Login” page | System restricts access and shows "This page isn’t working" | Pass ✅  | — | — | Keamogetswe | 2025-11-12 |
 
 ---
-
+## **2. 🗑️ Waste Management Requirements**
+---
 
 
 
