@@ -8,20 +8,30 @@
 
 ---
 
-## Functional Test Cases - Manual Testing
-
+# Functional Test Cases
+---
 ### ** 1 🔐 Authentication System Requirements**
 ---
+#### 1.1 👤 User Registration Test Cases
 
-#### 1.1 Registration Test Case
+#### Table 1.1.1 Test cases for **manual testing** 📝
+| Test Case ID | Objective                         | Expected Result              | Risk ID | Notes              |
+| ------------ | --------------------------------- | ---------------------------- | ------- | ------------------ |
+| TC-001       | Register new user with valid data | Account created successfully | R-001   | Positive Test Case |
+| TC-002       | Register user with invalid email  | Validation error displayed   | R-001   | Negative Test Case |
+| TC-003       | Register user with empty name     | Validation error displayed   | R-001   | Negative Test Case |
+| TC-004       | Register user with empty email    | Validation error displayed   | R-001   | Negative Test Case |
+| TC-005       | Register user with empty password | Validation error displayed   | R-001   | Negative Test Case |
 
-| Test Case ID | Objective                         | Expected Result              | Risk ID |
-| ----- | --------------------------------- | ---------------------------- | --------- |
-| TC-001 | Register new user with valid data | Account created successfully | R-001      |
-| TC-002 | Register user with invalid email  | Validation error displayed   | R-001      |
-| TC-003 | Register user with empty name     | Validation error displayed   | R-001      |
-| TC-004 | Register user with empty email    | Validation error displayed   | R-001      |
-| TC-005 | Register user with empty password | Validation error displayed   | R-001      |
+#### 1.1.2 Test cases for **Selenium automated testing** 🤖
+| Test Case ID | Objective                         | Expected Result              | Risk ID | Notes              |
+| ------------ | --------------------------------- | ---------------------------- | ------- | ------------------ |
+| TC-006       | Register new user with valid data | Account created successfully | R-001   | Positive Test Case |
+| TC-007       | Register user with invalid email  | Validation error displayed   | R-001   | Negative Test Case |
+| TC-008       | Register user with empty name     | Validation error displayed   | R-001   | Negative Test Case |
+| TC-009       | Register user with empty email    | Validation error displayed   | R-001   | Negative Test Case |
+| TC-009       | Register user with empty password | Validation error displayed   | R-001   | Negative Test Case |
+
 ---
 #### 1.2 Login Test Cases
 
