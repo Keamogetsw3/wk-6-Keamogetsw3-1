@@ -94,7 +94,7 @@ The purpose of this report is to validate that the application meets its functio
 | ------------ | ----------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------------- | ------------- | ------ | --------- | -------- | ------ | ---- |
 | TC045        | Verify that the system provides real-time status updates for pickup requests. | Manual    | Status of each pickup request updates dynamically without requiring page refresh.            |               |    Fail ❌    | —         | —        |     Sally Trizer   |  2025-11-16 |
 | TC046        | Verify that users receive notifications for pickup request status changes.    | Manual    | User receives notifications (email, SMS, or in-app) whenever the status of a pickup changes. |               |    Fail ❌    | —         | —        |     Sally Trizer   | 2025-11-16  |
-| TC047        | Verify that users can add feedback after a pickup is completed.               | Manual    | Users can submit feedback, and the system stores it associated with the completed pickup.    |               |   Pass ✅      | —         | —        |  Keamogetswe  | 2025-11-16  |
+| TC047        | Verify that users can add feedback after a pickup is completed.               | Manual    | Users can submit feedback, and the system stores it associated with the completed pickup.    |               |   Pass ✅      | —         | —   |  Keamogetswe  | 2025-11-16  |
 
 ---
 ### **3. 📊 Dashboard & Analytics Requirements**
@@ -109,7 +109,22 @@ The purpose of this report is to validate that the application meets its functio
 ---
 ### **4. 📝 Content Management Requirements**
 ---
+#### Table 4.1 ✍️ Blog System Test case execusion report
+| Test Case ID | Objective                                                       | Test Type  | Expected Result                                                  | Actual Result | Status | Defect ID | Severity | Tester | Date |
+| ------------ | --------------------------------------------------------------- | ---------- | ---------------------------------------------------------------- | ------------- | ------ | --------- | -------- | ------ | ---- |
+| TC051        | Verify that the blog list page loads successfully | Manual| Blog page loads and displays available blog posts | Blog page loads and displays available blog posts | Pass ✅ | — |  —   |    Keamogetswe    |   2025-11-12   |
+| TC052        | Verify that users can view a single blog post | Manual | Blog post content (title, date, body, images) displays correctly | Blog post content (title, date, body, images) displays correctly |Pass ✅ |  — |  — | Keamogetswe |    2025-11-16  |
+| TC053        | Verify that users can interact with blog content (like/comment) | Manual | User can click like or submit a comment successfully| User can click like or submit a comment successfully |Pass ✅ | — | — |Keamogetswe |   2025-11-16   |
+| TC054        | Verify that admins can create a blog post| Manual | Blog post is saved and appears in the list | Admins cannot create a blog post | Fail ❌ |  D000 | Major | Sally Trizer |   2025-11-12   |
+| TC055        | Verify that admins can edit an existing blog post| Manual | Updated content is saved and reflected on the blog page | Admins cannot edit a blog post | Fail ❌ |D000 | Major |Keamogetswe |    2025-11-16  |
+| TC056        | Verify that admins can delete a blog post | Manual | Blog post is removed and no longer visible |Admins cannot de;ete a blog post | Fail ❌ | D000 | Major  | Keamogetswe |  2025-11-16     |
+| TC057        | Verify that categories/tags can be assigned to a blog post | Manual | Tag/category appears on post and filtering works |  Tag/category appears on post and filtering works | Pass ✅ | — | — | Keamogetswe | 2025-11-16 |
 
+---
+#### Table 4.2  👁️ Awareness Section Test case execusion report
+
+
+---
 
 
 
