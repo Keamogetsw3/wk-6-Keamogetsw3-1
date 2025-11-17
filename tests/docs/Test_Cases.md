@@ -138,7 +138,31 @@
 ---
 ### **4. 📝 Content Management Requirements**
 ---
+#### **4.1 ✍️ Blog System**
+#### Table 4.1.1 Test cases for **manual testing** 📝
+| Test Case ID | Feature     | Objective                                                       | Expected Result                                                  | Risk Link | Notes              |
+| ------------ | ----------- | --------------------------------------------------------------- | ---------------------------------------------------------------- | --------- | ------------------ |
+| TC051        | Blog System | Verify that the blog list page loads successfully               | Blog page loads and displays available blog posts                | R005      | Positive test case |
+| TC052        | Blog System | Verify that users can view a single blog post                   | Blog post content (title, date, body, images) displays correctly | R005      | Positive test case |
+| TC053        | Blog System | Verify that users can interact with blog content (like/comment) | User can click like or submit a comment successfully             | R005      | Positive test case |
+| TC054        | Blog System | Verify that admins can create a blog post                       | Blog post is saved and appears in the list                       | R005      | Positive test case |
+| TC055        | Blog System | Verify that admins can edit an existing blog post               | Updated content is saved and reflected on the blog page          | R005      | Positive test case |
+| TC056        | Blog System | Verify that admins can delete a blog post                       | Blog post is removed and no longer visible                       | R005      | Positive test case |
+| TC057        | Blog System | Verify that categories/tags can be assigned to a blog post      | Tag/category appears on post and filtering works                 | R005      | Positive test case |
+| TC058        | Blog System | Verify that users can filter blog posts by category             | Only posts matching the selected category are displayed          | R005      | Positive test case |
 
+---
+
+
+
+
+
+
+---
+---
+| Test Case ID | Feature | Objective | Expected Result | Risk Link  | Notes |
+|--------------|----------|------------|----------------|----------------| ----------------|
+| |  | |  | |
 
 ### 1.4 User Session Management (localStorage)
 | Test Case ID | Objective                                              | Expected Result                                                 | Risk ID |
