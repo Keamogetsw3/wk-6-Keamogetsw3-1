@@ -9,9 +9,9 @@
 ---
 
 # Functional Test Cases
----
-### **1 🔐 Authentication System Requirements**
 
+### **1 🔐 Authentication System Requirements**
+---
 #### 1.1 👤 User Registration Test Cases
 
 #### Table 1.1.1 Test cases for **manual testing** 📝
