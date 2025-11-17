@@ -164,6 +164,11 @@
 ---
 #### **4.3 🤝 Community Feed**
 #### Table 4.2.1 Test cases for **manual testing** 📝
+| Test Case ID | Objective                                                        | Expected Result                                                          | Risk Link | Notes              |
+| ------------ | ---------------------------------------------------------------- | ------------------------------------------------------------------------ | --------- | ------------------ |
+| TC063        | Verify that users can create community posts  share tips and experiences  | Users can create and submit a post, and it appears in the community feed | R005      | Positive test case |
+| TC064        | Verify that users can like and comment on community posts        | Users can like or comment, and interactions are reflected immediately    | R005      | Positive test case |
+| TC065        | Verify that community posts are displayed in chronological order | Posts are ordered from newest to oldest in the feed   | R005      | Positive test case |
 
 ---
 ### **5. 👥 Community Features Requirements**
