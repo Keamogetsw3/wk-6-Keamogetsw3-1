@@ -1,66 +1,132 @@
 # CleanCity: Waste Pickup Scheduler - Test Report
 ![Alt text](cleancity.png)
 
-**Course:** Software Testing & Quality Assurance  
-**Project Type:** Group Assessment
-**Team Name:** KNS  
-**Submission Date:** 2025-11-18
-# written by sally trizer
+# 🟢 CleanCity Project – Software Testing Report
 
-## EXECUTIVE SUMMARY 
-1.1 Purpose of the Report
+**Version:** 1.0  
+**Test Date:** [Insert Date]  
+**Test Manager:** Keamogetswe  
+**Tester(s):** Keamogetswe, Sally  
+**Risk Analyst:** Sally Trizer  
 
-The purpose of this Software Testing Final Report is to present the results, findings, and overall evaluation of the testing activities conducted on the Clean City website. This report summarizes the testing objectives, scope, environment, procedures followed, defects identified, and the final quality assessment of the system. It provides a clear basis for determining the system’s readiness for deployment and highlights any remaining risks or issues.
+---
 
-1.2 Scope of Testing
+## 1. Objectives
 
-The scope of testing covered the key functionalities of the Clean City website, including:
+As the KNS software testing team, our objectives are to ensure the CleanCity system meets all functional and non-functional requirements, functions reliably, and is secure. We aim to detect defects early, validate performance under different conditions, enhance user experience, reduce operational risks, confirm overall quality, and ensure the CleanCity application is fully ready for deployment.  
 
-User registration and login
+---
 
-Resident dashboard features
+## 2. Overview of the CleanCity System
 
-Waste reporting and complaint submission
+CleanCity is a web-based platform designed to streamline and modernize waste management operations for residents, waste collectors, and administrators. The system allows users to report waste issues, request collection services, track the status of their submissions, and communicate directly with the management team. Administrators can monitor reports, assign tasks, update progress, and analyze waste trends. The platform aims to improve city cleanliness, enhance reporting accuracy, reduce response time, and promote transparency and accountability in urban waste management.
 
-Admin management functions
+---
 
-Notification and messaging features
+## 3. Scope of Testing
 
-User profile management
+The scope of testing covered the key functionalities of the CleanCity website, including core features such as registration, login, and waste collection requests. It also included validating admin dashboards and data management processes, performing functional, non-functional, UI, usability, security, and compatibility testing, testing across multiple devices and browsers, validating APIs, data accuracy, error handling, and system responses, as well as assessing performance under normal, peak, and extreme conditions to ensure full reliability and requirement compliance.  
 
-General UI/UX behaviour and responsiveness across supported devices
+The testing did not cover load testing beyond certain thresholds.
 
-Non-functional testing such as usability, performance, and security was conducted at a basic level, while deep penetration testing was outside the scope of this cycle.
+---
 
-1.3 Overview of the Clean City System
+## 4. Test Environment
 
-Clean City is a web-based platform designed to streamline waste management operations for residents, collectors, and administrators. The system enables users to report waste issues, track response progress, communicate with the management team, and access relevant environmental services. The platform aims to improve cleanliness, enhance reporting efficiency, and promote accountability in urban waste management.
+The testing environment included the frontend CleanCity web application developed using HTML, CSS, and JavaScript, and the backend based on Node.js/Express. The database used was MySQL or MongoDB depending on the project configuration. Browsers tested included Chrome, Firefox, and Edge, while devices included Windows desktops and Android smartphones. Test data consisted of a mix of dummy data and realistic simulated user inputs. Tools used included GitHub for defect tracking and test case management, along with browser developer tools for debugging.  
 
-1.4 Testing Period
+---
 
-The testing activities were carried out from 7 november to 15 november. This period included test planning, test case development, execution, defect logging, retesting, and regression testing.
+## 5. Test Execution Summary
 
-1.5 Testing Environment Summary
+### Planned Test Cases
 
-Testing was performed on the following environment setup:
+| Category | Manual | Automated | Total |
+|----------|--------|-----------|-------|
+| Registration | 5 | 5 | 10 |
+| Login | 5 | 5 | 10 |
+| Logout | 3 | 1 | 4 |
+| Role-Based Access | 4 | – | 4 |
+| Pickup Scheduling | 7 | 1 | 8 |
+| Request Management | 8 | – | 8 |
+| Tracking | 3 | – | 3 |
+| Dashboard | 3 | – | 3 |
+| Blog System | 7 | – | 7 |
+| Awareness | 5 | – | 5 |
+| Community Feed | 3 | – | 3 |
+| Community Features | 4 | – | 4 |
+| Admin Functions | 4 | – | 4 |
+| Session Management | 5 | – | 5 |
+| Non-Functional | 20+ | – | 20+ |
+| Boundary / Edge Cases | 10+ | – | 10+ |
 
-Frontend: Clean City Web (HTML, CSS, JavaScript)
+### Executed Test Cases – Pass / Fail
 
-Backend: Node.js / Express (or insert your backend tech)
+| Category | Total | Pass ✅ | Fail ❌ | Defects Linked |
+|----------|-------|---------|---------|----------------|
+| User Registration | 10 | 10 | 0 | — |
+| User Login | 10 | 6 | 4 | D-002, D-003 |
+| User Logout | 4 | 2 | 2 | D-004 |
+| Role-Based Access | 4 | 4 | 0 | — |
+| Pickup Scheduling | 8 | 3 | 5 | D-005, D-006, D-007 |
+| Request Management | 8 | 0 | 8 | D-000 |
+| Request Tracking | 3 | 1 | 2 | — |
+| Dashboard & Analytics | 3 | 0 | 3 | D-000 |
+| Blog System | 7 | 4 | 3 | D-000 |
+| Awareness Section | 5 | 5 | 0 | — |
+| Community Feed | 3 | 3 | 0 | — |
+| Community Features | 3 | 1 | 2 | D-001, D-002 |
+| Administrative Functions | 12 | 0 | 0 | Pending |
+| Notification System | 4 | 0 | 0 | Pending |
+| Data Management | 5 | 5 | 0 | — |
+| Support & Maintenance | 3 | 0 | 0 | Pending |
+| UI / Responsiveness | 4 | 1 | 1 | D-008, D-009, D-010, D-011 |
+| Navigation | 4 | 2 | 2 | — |
+| Performance | 4 | 0 | 0 | Pending |
+| Cross-Browser | 8 | 8 | 0 | — |
+| Error Handling | 10 | 0 | 0 | Pending |
+| Form Validation | 3 | 0 | 0 | Pending |
+| Boundary / Edge Cases | 2+ | 0 | 0 | Pending |
 
-Database: MySQL / MongoDB (adjust based on your project)
+---
 
-Browsers Tested: Chrome, Firefox, Edge
+## 6. Defect Summary
 
-Devices Tested: Desktop (Windows), Android smartphone
+### Functional Test Defects
 
-Test Data: Combination of dummy and realistic user data
+| ID | Issue Title | Severity | Risk ID | Status | GitHub Link | Test Case ID |
+|----|------------|---------|---------|--------|------------|-------------|
+| D-001 | Profile shows email instead of full name | Cosmetic | R00 | Open | [Issue #28](#) | TC-001 |
+| D-002 | Existing user can login with a completely invalid password | Critical | R001 | Open | [Issue #31](#) | TC-005 |
+| D-003 | System allows login with unregistered credentials | Critical | R001 | Open | [Issue #32](#) | TC-006 |
+| D-004 | Pick-up request submitted without user registration | Major | R001 | Open | [Issue #33](#) | TC-010 |
+| D-005 | The pickup is scheduled even with invalid date | Medium | R003 | Open | [Issue #34](#) | TC-025 |
+| D-006 | Pickup request allows instructions exceeding 200 characters | Medium | R003 | Open | [Issue #41](#) | TC-028 |
+| D-007 | Scheduling multiple pickups for the same date | Medium | R003 | Open | [Issue #42](#) | TC-029 |
 
-Tools Used: GitHub for defect tracking, Google Sheets / Excel for test case documentation, Browser DevTools for debugging
- This report presents the results of comprehensive testing conducted on the CLEAN CITY PROJECT from november 5th to november  17, 2025. The testing focused on validating new 
-features, verifying bug fixes, ensuring performance across various conditions, and confirming 
-compatibility across platforms.
- Key Findings:
+### Non-Functional Test Defects
 
- 1. Test Objective
- The primary objective of this testing cycle was to evaluate the quality, functionality, performance, and
+| ID | Issue Title | Severity | Risk ID | Status | GitHub Link |
+|----|------------|---------|---------|--------|------------|
+| D-008 | Menu bar expands excessively when resizing window | Medium | R008 | Open | [Issue #55](#) |
+| D-009 | Low contrast text fails WCAG 2.1 AA | Major | R008 | Open | [Issue #56](#) |
+
+### Accessibility Test Defects
+
+| ID | Issue Title | Severity | Risk ID | Status | GitHub Link |
+|----|------------|---------|---------|--------|------------|
+| D-010 | [Add title] | Major | R006 | Open / In Progress / Resolved / Closed | [Link](#) |
+| D-011 | [Add title] | Major | R007 | Open / In Progress / Resolved / Closed | [Link](#) |
+
+### Cross-Browser Compatibility Test Defects
+
+| ID | Issue Title | Severity | Risk ID | Status | GitHub Link |
+|----|------------|---------|---------|--------|------------|
+| D-012 | [Add title] | Minor | R008 | Open / In Progress / Resolved / Closed | [Link](#) |
+| D-013 | [Add title] | Major | R009 | Open / In Progress / Resolved / Closed | [Link](#) |
+
+---
+
+## 7. Defect Summary by Category
+
+Functional testing identified 7 defects, including 2 critical, 1 major, 3 medium, and 1 cosmetic. Non-functional testing revealed 2 defects, 1 major and 1 medium. Accessibility testing included 2 major defects, while cross-browser compatibility testing identified 2 defects (1 major, 1 minor). In total, 13 defects were reported. Most critical defects relate to login and authentication issues, while medium defects primarily involve scheduling and input validations. Non-functional and accessibility defects require UI and compliance fixes. Continuous monitoring is recommended for pending and in-progress defects to ensure timely resolution.
