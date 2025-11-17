@@ -97,8 +97,22 @@ The purpose of this report is to validate that the application meets its functio
 | TC047        | Verify that users can add feedback after a pickup is completed.               | Manual    | Users can submit feedback, and the system stores it associated with the completed pickup.    |               |   Pass ✅      | —         | —        |    Sally Trizer   | 2025-11-16  |
 
 
+---
+### **3. 📊 Dashboard & Analytics Requirements**
+---
+#### Table 3.1:
+| Test Case ID | Objective                                                                              | Test Type | Expected Result                                                                                                   | Actual Result                                                       | Status | Defect ID | Severity | Tester      | Date       |
+| ------------ | -------------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------ | --------- | -------- | ----------- | ---------- |
+| TC048        | Verify that the user dashboard displays personalized information for logged-in users   | Manual    | Dashboard shows recent pickup requests, upcoming scheduled pickups, achievement badges, and quick action buttons  | —                                                                   | | —         | Major    | | |
+| TC049        | Verify that the system shall calculate and display user's environmental impact metrics | Manual    | Dashboard correctly calculates and displays total waste diverted, CO2 emissions saved, and trees equivalent saved | —                                                                   | | —         |    |  |  |
+| TC050        | Verify that the system awards badges for various achievements                          | Manual    | User is awarded badges based on milestones and badges are displayed on the dashboard                              | —                                                                   |  | —         |  |  | |
 
 
+
+
+---
+### **4. 📝 Content Management Requirements**
+---
 
 
 
