@@ -288,14 +288,14 @@ The purpose of this report is to validate that the application meets its functio
 ---
 | TC No. | Feature               | Objective                                           | Expected Result                                   | Actual Result                                       | Status | Risk Link | Tester       |
 | ------ | --------------------- | --------------------------------------------------- | ------------------------------------------------- | --------------------------------------------------- | ------ | --------- | ------------ |
-| TC021  | Registration          | Register new user with valid data                   | Account created successfully                      | Successfully registered new user in Chrome          | ✅ Pass | R002      | Sally Trizer |
-| TC022  | Login                 | Login with correct credentials                      | Access granted                                    | Successfully logged in with correct password        | ✅ Pass | R003      | Sally Trizer |
-| TC023  | Login                 | Login with wrong credentials                        | Error message displayed                           | Error “Wrong password” displayed as expected        | ✅ Pass | R003      | Sally Trizer |
-| TC024  | Login                 | Login with the same credentials across all browsers | Invalid email or wrong password message           | Failed to login — “Invalid email or wrong password” | ❌ Fail | R003      | Sally Trizer |
-| TC025  | Dashboard Filters     | Filter by Status                                    | Only requests with selected status display        | Requests filtered correctly by status               | ✅ Pass | R002      | Sally Trizer |
-| TC026  | Dashboard Filters     | Filter by Location                                  | Only requests in selected location display        | Requests filtered correctly by location             | ✅ Pass | R002      | Sally Trizer |
-| TC027  | Pickup & Rescheduling | Verify pickup and rescheduling functions properly   | Request should be successfully rescheduled/picked | Function failed to reschedule/pickup request        | ❌ Fail | R004      | Sally Trizer |
-| TC028  | Awareness Page        | Verify awareness page loads and displays content    | Awareness page loads successfully                 | Awareness page displayed correctly with all content | ✅ Pass | R005      | Sally Trizer |
+| TC0124  | Registration          | Register new user with valid data                   | Account created successfully                      | Successfully registered new user in Chrome          | ✅ Pass | R002      | Sally Trizer |
+| TC0125  | Login                 | Login with correct credentials                      | Access granted                                    | Successfully logged in with correct password        | ✅ Pass | R003      | Sally Trizer |
+| TC0126  | Login                 | Login with wrong credentials                        | Error message displayed                           | Error “Wrong password” displayed as expected        | ✅ Pass | R003      | Sally Trizer |
+| TC0126  | Login                 | Login with the same credentials across all browsers | Invalid email or wrong password message           | Failed to login — “Invalid email or wrong password” | ❌ Fail | R003      | Sally Trizer |
+| TC0127  | Dashboard Filters     | Filter by Status                                    | Only requests with selected status display        | Requests filtered correctly by status               | ✅ Pass | R002      | Sally Trizer |
+| TC0128  | Dashboard Filters     | Filter by Location                                  | Only requests in selected location display        | Requests filtered correctly by location             | ✅ Pass | R002      | Sally Trizer |
+| TC0129  | Pickup & Rescheduling | Verify pickup and rescheduling functions properly   | Request should be successfully rescheduled/picked | Function failed to reschedule/pickup request        | ❌ Fail | R004      | Sally Trizer |
+| TC0130  | Awareness Page        | Verify awareness page loads and displays content    | Awareness page loads successfully                 | Awareness page displayed correctly with all content | ✅ Pass | R005      | Sally Trizer |
 
 
 ---
