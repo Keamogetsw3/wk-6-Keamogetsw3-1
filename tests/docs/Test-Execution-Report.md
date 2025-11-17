@@ -197,10 +197,18 @@ The purpose of this report is to validate that the application meets its functio
 | TC083  | Verify that the system shows notifications for pickup updates, blogs, community interactions, and achievements | Manual    | All notification types appear correctly in the notification list             |               |        |           |          |        |      |
 | TC084 | Verify that users can mark notifications as read                                                               | Manual    | Selected notifications change to “read” state and unread counter updates     |               |        |           |          |        |      |
 | TC085 | Verify that the system provides a full notification history                                                    | Manual    | Notification history page displays past notifications in chronological order |               |        |           |          |        |      |
-
-
 ---
-#### Table 6.3: Content Moderation Test case execusion report
+### **8 🔒 Data Management Requirements**
+---
+#### Table 8.1: Data Persistence Test case execusion report
+| Test Case ID | Test Description                          | Test Type   | Expected Result                       | Actual Result                | Status  | Defect ID | Severity | Tester          | Date       |
+|--------------|-------------------------------------------|------------|---------------------------------------|------------------------------|---------|-----------|---------|----------------|-----------|
+| TC086      | Verify session data is stored in localStorage after login    | Manual | localStorage contains session key | localStorage contains a key  `User` | Pass ✅  | —         | —       | Keamogetswe  | 2025-11-12 |
+| TC087 | Verify user session persists after page refresh | Manual | User remains logged in; localStorage values persist  |User remains logged in; localStorage values persist | Pass ✅  | —         | —       | Keamogetswe  | 2025-11-12 |
+| TC088 | Verify that session persists after reopening browser tab | Manual  | User remains logged in; localStorage still holds session data  |User remains logged in; localStorage values persist | Pass ✅  | —         | —       | Keamogetswe  | 2025-11-12 |
+| TC089 | Verify that session data is cleared after logout | Manual | localStorage entry `User` is removed| localStorage entry `User` is removed|Pass ✅ |  — | — | Keamogetswe | 2025-11-12 |
+| TC090  | Verify access restriction after localStorage is cleared manually | Manual  | User logged out and redirected to home page| User logged out and redirected to sign in page             |   Pass ✅          | — | — | Keamogetswe | 2025-11-12 |
+
 ---
 #### Table 6.3: Content Moderation Test case execusion report
 ---
@@ -208,13 +216,7 @@ The purpose of this report is to validate that the application meets its functio
 
 
 #### Table 1.4: User Session Management (localStorage) Test Cases
-| Test Case ID | Test Description                          | Test Type   | Expected Result                       | Actual Result                | Status  | Defect ID | Severity | Tester          | Date       |
-|--------------|-------------------------------------------|------------|---------------------------------------|------------------------------|---------|-----------|---------|----------------|-----------|
-| TC014      | Verify session data is stored in localStorage after login    | Functional | localStorage contains session key | localStorage contains a key  `User` | Pass ✅  | —         | —       | Keamogetswe  | 2025-11-12 |
-| TC015 | Verify user session persists after page refresh | Functional | User remains logged in; localStorage values persist  |User remains logged in; localStorage values persist | Pass ✅  | —         | —       | Keamogetswe  | 2025-11-12 |
-| TC016 | Verify that session persists after reopening browser tab | Functional | User remains logged in; localStorage still holds session data  |User remains logged in; localStorage values persist | Pass ✅  | —         | —       | Keamogetswe  | 2025-11-12 |
-| TC017 | Verify that session data is cleared after logout | Functional | localStorage entry `User` is removed| localStorage entry `User` is removed|Pass ✅ |  — | — | Keamogetswe | 2025-11-12 |
-| TC018  | Verify access restriction after localStorage is cleared manually | Functional | User logged out and redirected to home page| User logged out and redirected to sign in page             |   Pass ✅          | — | — | Keamogetswe | 2025-11-12 |
+
 
 
 
