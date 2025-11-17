@@ -283,14 +283,20 @@ The purpose of this report is to validate that the application meets its functio
 | TC122        | Verify that the system loads pages within 3 seconds on standard internet connection | Automated | All pages load within 3 seconds under normal network conditions                      |               |        |           | High     |        |      |
 | TC123        | Verify that the system responds to user interactions within 1 second                | Automated | All user interactions (clicks, form submissions, navigation) respond within 1 second |               |        |           | High     |        |      |
 
----
-#### Table 13.2: 🌐 Cross-Browser Compatibility Testing
 
-| Test Case ID | Objective | Test Type | Expected Result | Actual Result | Status | Defect ID | Severity | Tester | Date |
-|--------------|-----------|-----------|-----------------|---------------|--------|-----------|----------|--------|------|
-| TC124 | Verify system works on Google Chrome (latest 2 versions) | Manual | Application functions correctly without layout issues, errors, or crashes | Application works as expected | Pass ✅ | — | — | Sally Trizer  | 2025-11-11 |
-| TC125 | Verify system works on Mozilla Firefox (latest 2 versions) | Manual | Application functions correctly without layout issues, errors, or crashes | Application works as expected | Pass ✅ | — | Sally Trizer | 2025-11-12  |
-| TC126 | Verify system works on Microsoft Edge (latest 2 versions) | Manual | Application functions correctly without layout issues, errors, or crashes | Application works as expected | Pass ✅ | — | — | Sally Trizer | 2025-11-12 |
+13.2 CROSS BROWSER TESTING
+---
+| TC No. | Feature               | Objective                                           | Expected Result                                   | Actual Result                                       | Status | Risk Link | Tester       |
+| ------ | --------------------- | --------------------------------------------------- | ------------------------------------------------- | --------------------------------------------------- | ------ | --------- | ------------ |
+| TC021  | Registration          | Register new user with valid data                   | Account created successfully                      | Successfully registered new user in Chrome          | ✅ Pass | R002      | Sally Trizer |
+| TC022  | Login                 | Login with correct credentials                      | Access granted                                    | Successfully logged in with correct password        | ✅ Pass | R003      | Sally Trizer |
+| TC023  | Login                 | Login with wrong credentials                        | Error message displayed                           | Error “Wrong password” displayed as expected        | ✅ Pass | R003      | Sally Trizer |
+| TC024  | Login                 | Login with the same credentials across all browsers | Invalid email or wrong password message           | Failed to login — “Invalid email or wrong password” | ❌ Fail | R003      | Sally Trizer |
+| TC025  | Dashboard Filters     | Filter by Status                                    | Only requests with selected status display        | Requests filtered correctly by status               | ✅ Pass | R002      | Sally Trizer |
+| TC026  | Dashboard Filters     | Filter by Location                                  | Only requests in selected location display        | Requests filtered correctly by location             | ✅ Pass | R002      | Sally Trizer |
+| TC027  | Pickup & Rescheduling | Verify pickup and rescheduling functions properly   | Request should be successfully rescheduled/picked | Function failed to reschedule/pickup request        | ❌ Fail | R004      | Sally Trizer |
+| TC028  | Awareness Page        | Verify awareness page loads and displays content    | Awareness page loads successfully                 | Awareness page displayed correctly with all content | ✅ Pass | R005      | Sally Trizer |
+
 
 ---
 ## **14. 📋 Error Handling Requirements**
