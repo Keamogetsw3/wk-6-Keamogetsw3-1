@@ -81,6 +81,9 @@
 | TC028        | Verify direct URL access to Admin Dashboard is blocked for non-admin users                                 | System restricts access and redirects to “Access Denied” or “Login” page       | R004    |
 
 ---
+### **2. 🗑️ Waste Management Requirements**
+---
+
 
 ### 1.4 User Session Management (localStorage)
 | Test Case ID | Objective                                              | Expected Result                                                 | Risk ID |
