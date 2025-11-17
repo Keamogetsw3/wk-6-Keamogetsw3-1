@@ -149,13 +149,25 @@
 | TC055        | Verify that admins can edit an existing blog post               | Updated content is saved and reflected on the blog page          | R005      | Positive test case |
 | TC056        | Verify that admins can delete a blog post                       | Blog post is removed and no longer visible                       | R005      | Positive test case |
 | TC057        | Verify that categories/tags can be assigned to a blog post      | Tag/category appears on post and filtering works                 | R005      | Positive test case |
-| TC058        | Verify that users can filter blog posts by category             | Only posts matching the selected category are displayed          | R005      | Positive test case |
-
 
 ---
+#### **4.2 👁️ Awareness Section**
+#### Table 4.2.1 Test cases for **manual testing** 📝
+| Test Case ID | Objective                                                                   | Expected Result                                                                           | Risk Link | Notes              |
+| ------------ | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | --------- | ------------------ |
+| TC058        | Verify that rotating eco tips are displayed every 5 seconds                 | Eco tips rotate automatically every 5 seconds                                             | R005      | Positive test case |
+| TC059        | Verify that users can access interactive quizzes about environmental topics | Quiz opens and users can answer questions interactively                                   | R005      | Positive test case |
+| TC060        | Verify that quiz scores are tracked and explanations are provided           | After completing a quiz, the score is displayed and correct answer explanations are shown | R005      | Positive test case |
+| TC061        | Verify that environmental infographics with statistics are displayed        | Infographics appear with accurate statistics and proper formatting                        | R005      | Positive test case |
+| TC062        | Verify that action buttons link to other features                           | Clicking action buttons navigates to the correct related feature or page                  | R005      | Positive test case |
 
+---
+#### **4.3 🤝 Community Feed**
+#### Table 4.2.1 Test cases for **manual testing** 📝
 
-
+---
+### **5. 👥 Community Features Requirements**
+---
 
 
 
