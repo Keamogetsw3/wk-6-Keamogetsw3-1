@@ -12,7 +12,7 @@
 
 ### **1 🔐 Authentication System Requirements**
 ---
-#### 1.1 👤 User Registration Test Cases
+#### **1.1 👤 User Registration Test Cases**
 
 #### Table 1.1.1 Test cases for **manual testing** 📝
 | Test Case ID | Objective                         | Expected Result              | Risk ID | Notes              |
@@ -84,7 +84,7 @@
 ---
 ### **2. 🗑️ Waste Management Requirements**
 ---
-#### 2.1 🚚 Pickup Scheduling
+#### **2.1 🚚 Pickup Scheduling**
 #### Table 2.1.1 Test cases for **manual testing** 📝
 | Test Case ID | Objective                                                                                            | Expected Result                                                                       | Risk ID | Notes              |
 | ------------ | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------- | ------------------ |
