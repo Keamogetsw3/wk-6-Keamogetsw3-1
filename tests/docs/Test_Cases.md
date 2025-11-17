@@ -115,9 +115,19 @@
 | TC042        | Verify that users cannot modify pickup details within 24 hours of the scheduled time.                         | The system prevents modification and displays an appropriate warning message.                         | R002    | Negative test case |
 | TC043        | Verify that the system displays correct request status for each pickup request.                               | Status is displayed as Pending, Confirmed, Completed, or Cancelled, based on the request’s state.     | R002    | Positive test case |
 | TC044        | Verify that request status updates automatically after completion or cancellation.                            | The status changes dynamically according to the action taken (e.g., from Confirmed → Completed).      | R002    | Positive test case |
+---
 
+### **2.3 📋 Request Trackingt**
+#### Table 2.3.1 Test cases for **manual testing** 📝
+| Test Case ID | Objective                                                                     | Expected Result                                                                              | Risk ID | Notes              |
+| ------------ | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ------- | ------------------ |
+| TC045        | Verify that the system provides real-time status updates for pickup requests. | Status of each pickup request updates dynamically without requiring page refresh.            | R002    | Positive test case |
+| TC046        | Verify that users receive notifications for pickup request status changes.    | User receives notifications (email, SMS, or in-app) whenever the status of a pickup changes. | R002    | Positive test case |
+| TC047        | Verify that users can add feedback after a pickup is completed.               | Users can submit feedback, and the system stores it associated with the completed pickup.    | R002    | Positive test case |
 
-
+---
+## **3. 📊 Dashboard & Analytics Requirements**
+---
 
 
 
