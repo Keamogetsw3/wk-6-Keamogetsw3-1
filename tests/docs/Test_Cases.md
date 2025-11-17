@@ -150,15 +150,7 @@
 | TC-018  | Verify access restricted when localStorage cleared manually | User is logged oute after refresh | R-003    |
 
 ---
-### 1.5 Role-Based Access Test Cases
-| Test Case ID | Objective                                              | Expected Result                                                 | Risk ID |
-|--------------|--------------------------------------------------------|-----------------------------------------------------------------|---------|
-| TC-019  | Verify system creates a new user account with “User” role upon successful registration | System automatically assigns the “User” role to newly registered accounts | R-004 |
-| TC-020  | Verify system supports two user roles: “User” and “Admin”. Each user can have only one valid role assigned | System supports two user roles: “User” and “Admin”| R-004  |
-| TC-021  | Verify only Admins can access Admin Dashboard | “User” role doesnt show Admin dashboard. “Admin” role can access successfully | R-004  |
-| TC-022  | Verify direct URL access to Admin Dashboard is blocked for non-admin users | System restricts access and redirects to “Access Denied” or “Login” page | R-004  |
 
----
 
 ### **2. 🗑️ Waste Management Requirements**
 
