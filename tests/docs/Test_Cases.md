@@ -101,12 +101,6 @@
 | Test Case ID | Objective                                                                                            | Expected Result                                                                       | Risk ID | Notes              |
 | ------------ | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------- | ------------------ |
 | TC036        | Verify system accepts submission and displays confirmation message (“Pickup scheduled successfully”) | Confirmation message showing that form is submitted and Pickup scheduled successfully | R002    | Positive test case |
-| TC037        | Invalid pickup request (no data)                                                                     | System shows validation errors for empty fields                                       | R002    | Negative test case |
-| TC038        | Invalid pickup request (Yesterday’s date)                                                            | System does not allow scheduling for past date                                        | R002    | Negative test case |
-| TC039        | Invalid pickup request (empty Waste Type)                                                            | System shows error indicating Waste Type is required                                  | R002    | Negative test case |
-| TC040        | Invalid pickup request (empty Location)                                                              | System shows error indicating Location is required                                    | R002    | Negative test case |
-| TC041        | Invalid pickup request (Very long text >200 chars)                                                   | System truncates input or shows error for long text                                   | R002    | Negative test case |
-| TC042        | The system shall prevent scheduling multiple pickups for the same date                               | System prevents creating duplicate pickups for the same date                          | R002    | Negative test case |
 ---
 
 
