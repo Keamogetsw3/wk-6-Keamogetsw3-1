@@ -160,6 +160,13 @@ The purpose of this report is to validate that the application meets its functio
 ---
 
 #### Table 6.1 Request Management Test case execusion report
+| Test Case ID | Test Description                                           | Test Type          | Expected Result                                                               | Actual Result | Status | Defect ID | Severity | Tester | Date |
+| ------------ | ---------------------------------------------------------- | ------------------ | ----------------------------------------------------------------------------- | ------------- | ------ | --------- | -------- | ------ | ---- |
+| TC070    | Verify that admins can view all pickup requests            | Manual | Admin can view a full list of all pickup requests with complete details       |               |        |           |          |        |      |
+| TC071   | Verify that admins can approve, reject, or modify requests | Manual | Admin can successfully approve, reject, or modify any pickup request          |               |        |           |          |        |      |
+| TC072   | Verify that admins can assign pickup dates and times       | Manual | Admin can set or update pickup dates/times and changes are saved successfully |               |        |           |          |        |      |
+| TC073    | Verify that admins can filter and search pickup requests   | Manual | The system returns correct filtered or searched results based on criteria     |               |        |           |          |        |      |
+
 
 ---
 #### Table 6.2 User Management Test case execusion report
