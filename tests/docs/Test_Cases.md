@@ -173,8 +173,10 @@
 ---
 ### **5. 👥 Community Features Requirements**
 ---
+#### **5.1 👤 User Profiles Test Cases**
 
-
+---
+#### **5.2 👥 Social Features Test Cases**
 
 ---
 ---
