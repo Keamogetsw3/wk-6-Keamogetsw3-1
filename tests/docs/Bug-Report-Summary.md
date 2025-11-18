@@ -708,6 +708,182 @@ The blog post should be removed and no longer visible on the blog page.
 Admins cannot delete a blog post; it remains visible in the list.
 
 ---
+### 🐞 BUG-029
+- **Title:** Profile picture upload fails with server error  
+- **GitHub Link:** [D029](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/78)  
+- **Requirement Affected:** Community Features – Community Feed  
+- **Severity:** Cosmetic  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+When users attempt to upload a profile picture, the system returns a 500 server error. While this prevents users from displaying a profile image in the community feed, it does not affect other profile or feed functionality.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in with a registered user account.  
+3. Navigate to **Profile Settings**.  
+4. Attempt to upload a profile picture (any valid image file).  
+5. Observe that the upload fails and a 500 server error is returned.  
+
+#### Expected Result
+Users should be able to upload a profile picture successfully, and it should display correctly in the community feed.  
+
+#### Actual Result
+Uploading an image returns a 500 server error; the profile picture is not saved or displayed in the feed.
+
+---
+# CleanCity Bug Reports – Community Feed Module
+
+### 🐞 BUG-030
+- **Title:** Users cannot follow or unfollow other community members  
+- **GitHub Link:** [D030](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/79)  
+- **Requirement Affected:** Community Features – Community Feed  
+- **Severity:** Minor  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+Users are unable to follow or unfollow other community members. This limits social interaction within the community feed but does not affect core application functionality.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in with a registered user account.  
+3. Navigate to **Community Feed** or another user's profile.  
+4. Attempt to follow or unfollow a community member.  
+5. Observe that the action fails.  
+
+#### Expected Result
+Users should be able to follow and unfollow other community members successfully.  
+
+#### Actual Result
+Users cannot follow or unfollow other community members.
+
+---
+
+### 🐞 BUG-031
+- **Title:** News feed does not display latest community activities  
+- **GitHub Link:** [D031](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/80)  
+- **Requirement Affected:** Community Features – Community Feed  
+- **Severity:** Minor  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+The news feed fails to update and does not display the latest community activities, such as posts, likes, or comments from followed users. This affects the visibility of interactions but does not block core functionality.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in with a registered user account.  
+3. Navigate to **Community Feed**.  
+4. Observe whether the latest posts, likes, and comments from followed users are displayed.  
+
+#### Expected Result
+The news feed should show the latest activities from followed users, including posts, likes, and comments.  
+
+#### Actual Result
+News feed does not update or show the latest community activities.
+
+---
+
+### 🐞 BUG-032
+- **Title:** Admins cannot approve, reject, or modify pickup requests  
+- **GitHub Link:** [D032](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/81)  
+- **Requirement Affected:** Administrative Functions Requirements – Request Management  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+Admins are unable to approve, reject, or modify pickup requests. This blocks key administrative workflow, preventing requests from being processed efficiently.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in as an admin user.  
+3. Navigate to the **Pickup Requests** section.  
+4. Attempt to approve, reject, or modify any pickup request.  
+5. Observe that the action cannot be performed.  
+
+#### Expected Result
+Admins should be able to approve, reject, or modify any pickup request successfully.  
+
+#### Actual Result
+Admin cannot approve, reject, or modify pickup requests.
+
+---
+
+### 🐞 BUG-033
+- **Title:** Admins cannot assign or update pickup dates and times  
+- **GitHub Link:** [D033](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/82)  
+- **Requirement Affected:** Administrative Functions Requirements – Request Management  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+Admins are unable to assign or update pickup dates and times. This prevents proper scheduling of pickups and delays operations.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in as an admin user.  
+3. Navigate to the **Pickup Requests** section.  
+4. Attempt to assign or update a pickup date/time for a request.  
+5. Observe that changes are not saved.  
+
+#### Expected Result
+Admins should be able to set or update pickup dates and times successfully.  
+
+#### Actual Result
+Admin cannot assign or update pickup dates/times; changes are not saved.
+
+---
+
+### 🐞 BUG-034
+- **Title:** Admins cannot filter or search pickup requests correctly  
+- **GitHub Link:** [D034](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/83)  
+- **Requirement Affected:** Administrative Functions Requirements – Request Management  
+- **Severity:** Minor  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+The filtering and search functionality in the Pickup Requests section does not return correct results based on criteria, reducing admin efficiency.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in as an admin user.  
+3. Navigate to **Pickup Requests**.  
+4. Attempt to filter or search requests using specific criteria.  
+5. Observe that the results are incorrect or incomplete.  
+
+#### Expected Result
+The system should return accurate filtered or searched results according to the selected criteria.  
+
+#### Actual Result
+Filtering/searching does not return correct results.
+
+---
+
+### 🐞 BUG-035
+- **Title:** Admins cannot receive or reply to feedback  
+- **GitHub Link:** [D035](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/84)  
+- **Requirement Affected:** Administrative Functions Requirements – Request Management  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+Admins are unable to receive or reply to feedback submitted by users. This blocks communication and reduces the effectiveness of the feedback system.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in as an admin user.  
+3. Navigate to the **Feedback** section.  
+4. Attempt to receive or reply to user feedback.  
+5. Observe that the system does not allow the actions.  
+
+#### Expected Result
+Admins should be able to receive and reply to feedback properly.  
+
+#### Actual Result
+Admin unable to receive or reply to feedback.
+
+---
+
+
 ### 🐞 BUG-012
 - **Title:** Waste type filter returns incorrect results  
 - **GitHub Link:** D-012  
