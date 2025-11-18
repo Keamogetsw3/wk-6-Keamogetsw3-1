@@ -32,8 +32,13 @@ CleanCity is a web-based platform designed to streamline waste pickup scheduling
 - We have identified major issues that affect the core functionalities of the app, therefore, we as KNA QA team we **Recommend** that the app should not be **RELEASED** until issues have been solved. 
 
 ## Objectives
+As the KNS software testing team, our primary objective is to ensure that the CleanCity system meets all functional and non-functional requirements, functions reliably, and is secure. Specifically, we aim to:
 
-As the KNS software testing team, our objectives are to ensure the CleanCity system meets all functional and non-functional requirements, functions reliably, and is secure. We aim to detect defects early, validate performance under different conditions, enhance user experience, reduce operational risks, confirm overall quality, and ensure the CleanCity application is fully ready for deployment.  
+- Verify that all functional and non-functional requirements are met.
+- Identify and document software defects with reproducible evidence.
+- Ensure risk-based testing coverage of critical modules.
+- Validate the system’s security, usability and compatibility across devices.
+- Ensure the CleanCity application is fully ready for deployment.  
 
 ---
 
