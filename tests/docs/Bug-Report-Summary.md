@@ -171,9 +171,11 @@ The system accepts past dates and schedules the pickup.
 Instructions longer than 200 characters are accepted without validation, leading to potential data and UI issues.
 
 #### Steps to Reproduce
-1. Enter instructions >200 characters.  
-2. Submit the request.  
-3. Observe that the system accepts the input.
+1. Open Cleancity application
+2. Log in and go to schedule pick up
+3. Enter required info then instructions >200 characters.  
+4. Submit the request.  
+5. Observe that the system accepts the input.
 
 #### Expected Result
 Reject instructions exceeding 200 characters or truncate automatically.
