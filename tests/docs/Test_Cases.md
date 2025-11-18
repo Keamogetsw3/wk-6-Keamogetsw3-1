@@ -62,7 +62,7 @@
 | ------------ | ------------------------------------------------ | -------------------------------------------------------- | ------- | ------------------ |
 | TC021        | Verify user can successfully log out             | User is logged out and redirected to the Home page       | R001    | Positive test case |
 | TC022        | Verify user cannot access dashboard after logout | Attempting to access dashboard redirects to login page   | R001    | Negative test case |
-| TC023        | Verify scheduling a pickup without login         | System should restrict access and redirect to login page | R001    | Negative test case |
+| TC023        | Verify scheduling a pickup without login         | System should restrict access and redirect to login page | R002    | Negative test case |
 
 #### 1.3.2 Test cases for **Selenium automated testing** 🤖
 | Test Case ID | Objective                                        | Expected Result                                          | Risk ID | Notes              |
