@@ -633,9 +633,81 @@ Badges should be clearly displayed, associated correctly with achievements, and 
 
 #### Actual Result
 Badges are displayed on the dashboard, but minor issues may exist in presentation or association.
+---
+### 🐞 BUG-026
+- **Title:** Admins cannot create a blog post  
+- **GitHub Link:** [D026](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/75)  
+- **Requirement Affected:** Content Management Requirements – Blog System  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
 
+#### Summary
+Admins are unable to create new blog posts. When attempting to save a new post, the system fails to store the blog content or display it in the blog list. This blocks content creation entirely.  
 
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in as an admin user.  
+3. Navigate to the **Blog System** section.  
+4. Attempt to create a new blog post with title and content.  
+5. Save the post and check the blog list.  
 
+#### Expected Result
+The blog post should be saved successfully and appear in the blog list.  
+
+#### Actual Result
+Admins cannot create a blog post; the system fails to save it.
+
+---
+
+### 🐞 BUG-027
+- **Title:** Admins cannot edit an existing blog post  
+- **GitHub Link:** [D027](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/76)  
+- **Requirement Affected:** Content Management Requirements – Blog System  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+Admins are unable to edit existing blog posts. Updates made to a blog post’s content are not saved or reflected on the blog page. This prevents proper content management and updates.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in as an admin user.  
+3. Navigate to the **Blog System** section.  
+4. Select an existing blog post and attempt to edit the content.  
+5. Save changes and check the blog page.  
+
+#### Expected Result
+Updated content should be saved and displayed correctly on the blog page.  
+
+#### Actual Result
+Admins cannot edit a blog post; changes are not saved.
+
+---
+
+### 🐞 BUG-028
+- **Title:** Admins cannot delete a blog post  
+- **GitHub Link:** [D028](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/77)  
+- **Requirement Affected:** Content Management Requirements – Blog System  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+Admins are unable to delete blog posts. When attempting to remove a post, it remains visible in the blog list, preventing proper content management.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in as an admin user.  
+3. Navigate to the **Blog System** section.  
+4. Attempt to delete an existing blog post.  
+5. Verify that the blog post is removed from the list.  
+
+#### Expected Result
+The blog post should be removed and no longer visible on the blog page.  
+
+#### Actual Result
+Admins cannot delete a blog post; it remains visible in the list.
+
+---
 ### 🐞 BUG-012
 - **Title:** Waste type filter returns incorrect results  
 - **GitHub Link:** D-012  
