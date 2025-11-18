@@ -21,7 +21,16 @@
 | Risk Analyst | Sally Trizer | Risk identification, prioritization, test design linkage |
 
 
-## 1. Objectives
+## 1. Executive Summary
+CleanCity is a web-based platform designed to streamline waste pickup scheduling for residents and this report will present the results of a comprehensive testing done by members of the KNS as part of the final project for the PowerLearn Project Software Testing & Quality Assurance course. Testing took place from 30 October 2025 to 18 November 2025, where manual and automated testing was used test the functionality, performance, usability, accessibility and security across the web application.
+
+### Key Finding:
+- Core Functional Issues:
+  - Authentication: System allows login with unregistered or invalid credentials.
+
+### Recommandation: We have identified major issues that affect the core functionalities of the app, therefore we Recommend that the app to not be **RELEASED** until issues have been solved. 
+
+## Objectives
 
 As the KNS software testing team, our objectives are to ensure the CleanCity system meets all functional and non-functional requirements, functions reliably, and is secure. We aim to detect defects early, validate performance under different conditions, enhance user experience, reduce operational risks, confirm overall quality, and ensure the CleanCity application is fully ready for deployment.  
 
