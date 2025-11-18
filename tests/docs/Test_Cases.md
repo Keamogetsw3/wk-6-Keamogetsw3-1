@@ -131,9 +131,9 @@
 #### Table 3.1 Test cases for **manual testing** 📝
 | Test Case ID | Objective                                                                              | Expected Result                                                                                                                                | Risk ID | Notes              |
 | ------------ | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------------ |
-| TC048        | Verify that the user dashboard displays personalized information for logged-in users   | Dashboard shows recent pickup requests, upcoming scheduled pickups, achievement badges, and quick action buttons                               | R002    | Positive test case |
-| TC049        | Verify that the system shall calculate and display user's environmental impact metrics | Dashboard correctly calculates and displays total waste diverted, CO2 emissions saved, and trees equivalent saved                              | R002    | Positive test case |
-| TC050        | Verify that the system awards badges for various achievements                          | User is awarded badges based on milestones (e.g., number of pickups completed, environmental impact) and badges are displayed on the dashboard | R002    | Positive test case |
+| TC048        | Verify that the user dashboard displays personalized information for logged-in users   | Dashboard shows recent pickup requests, upcoming scheduled pickups, achievement badges, and quick action buttons                               | R013    | Positive test case |
+| TC049        | Verify that the system shall calculate and display user's environmental impact metrics | Dashboard correctly calculates and displays total waste diverted, CO2 emissions saved, and trees equivalent saved                              | R013    | Positive test case |
+| TC050        | Verify that the system awards badges for various achievements                          | User is awarded badges based on milestones (e.g., number of pickups completed, environmental impact) and badges are displayed on the dashboard | R013    | Positive test case |
 
 ---
 ### **4. 📝 Content Management Requirements**
