@@ -6,11 +6,10 @@
 **Date:** 18 November 2025 
 
 ---
-
 ## 🔍 Overview
 
 This document provides a summary of all defects identified during manual and automated testing of the CleanCity application.  
----
+
 ## ✅ Expected Behaviors
 
 1. Allow users to register and login to schedule waste pickup requests with valid dates, waste types and instructions.
