@@ -134,22 +134,23 @@ The pick-up request is submitted successfully without authentication.
 
 ### 🐞 BUG-005
 - **Title:** Pickup is scheduled even with invalid date  
-- **GitHub Link:** #—  
+- **GitHub Link:** [D005](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/34) 
 - **Requirement Affected:** Pickup Scheduling – Date Validation  
-- **Severity:** Medium  
+- **Severity:** Major 
 - **Environment:** Development, Google Chrome, Windows 10  
 
 #### Summary
 The system allows scheduling pickups with **past dates**, violating scheduling rules.
 
 #### Steps to Reproduce
-1. Navigate to the Pickup Request form.  
-2. Enter:  
+1.
+2. Navigate to the Pickup Request form.  
+3. Enter:  
    - **Date:** Yesterday  
    - **Waste Type:** General  
    - **Location:** Nairobi  
    - **Instructions:** “Please ring doorbell”  
-3. Submit the form.
+4. Submit the form.
 
 #### Expected Result
 Past dates should be rejected with a validation message.
