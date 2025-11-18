@@ -564,8 +564,6 @@ Feedback should be stored and associated with the completed pickup request.
 Users can add feedback, but it is not associated with the completed pickup.
 
 
-# CleanCity Bug Reports – Dashboard & Analytics Module
-
 ### 🐞 BUG-023
 - **Title:** Dashboard does not display personalized information for logged-in users  
 - **GitHub Link:** [D023](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/72)  
