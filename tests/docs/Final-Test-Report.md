@@ -1,7 +1,5 @@
-# CleanCity: Waste Pickup Scheduler - Test Report written by sally trizer
+# CleanCity: Waste Pickup Scheduler - Test Report
 ![Alt text](cleancity.png)
-
-# 🟢 CleanCity Project – Software Testing Report
 
 **Version:** 1.0  
 **Test Date:** 15 th nov 2025  
