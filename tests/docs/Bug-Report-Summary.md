@@ -112,7 +112,7 @@ The system allows login and grants access with unregistered credentials.
 - **Title:** Pick-up request submitted without user registration  
 - **GitHub Link:** [#33](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/33)  
 - **Requirement Affected:** Pick-up Request – User Authentication  
-- **Severity:** High  
+- **Severity:** Critical  
 - **Environment:** Development, Google Chrome, Windows 10  
 
 #### Summary
