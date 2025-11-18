@@ -882,6 +882,79 @@ Admins should be able to receive and reply to feedback properly.
 Admin unable to receive or reply to feedback.
 
 ---
+### 🐞 BUG-036
+- **Title:** Admins cannot view all registered users  
+- **GitHub Link:** [D036](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/85)  
+- **Requirement Affected:** Administrative Functions Requirements – User Management  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+Admins are unable to view the complete list of all registered users. Only partial or no user information is displayed, limiting administrative oversight.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in as an admin user.  
+3. Navigate to **User Management** or **Registered Users** section.  
+4. Observe that the full list of registered users is not displayed.  
+
+#### Expected Result
+Admins should be able to view a complete list of all registered system users.  
+
+#### Actual Result
+Admin cannot view the complete list of registered users.
+
+---
+
+### 🐞 BUG-037
+- **Title:** Admins cannot change user roles  
+- **GitHub Link:** [D037](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/86)  
+- **Requirement Affected:** Administrative Functions Requirements – User Management  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+Admins are unable to update user roles. Changes to user roles do not save or reflect immediately, preventing proper role management.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in as an admin user.  
+3. Navigate to **User Management** and select a user.  
+4. Attempt to change the user’s role.  
+5. Observe that the changes are not saved or reflected.  
+
+#### Expected Result
+Admins should be able to update user roles and see changes reflected immediately.  
+
+#### Actual Result
+Admin cannot update user roles; changes are not saved.
+
+---
+
+### 🐞 BUG-038
+- **Title:** Admins cannot suspend or delete user accounts  
+- **GitHub Link:** [D038](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/87)  
+- **Requirement Affected:** Administrative Functions Requirements – User Management  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+Admins are unable to suspend or delete user accounts. Attempts to perform these actions fail, preventing proper account management and enforcement of policies.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in as an admin user.  
+3. Navigate to **User Management** and select a user.  
+4. Attempt to suspend or delete the account.  
+5. Observe that the system does not allow the action.  
+
+#### Expected Result
+Admins should be able to suspend or delete user accounts successfully.  
+
+#### Actual Result
+Admin cannot suspend or delete user accounts; system does not update status.
+
+---
 
 
 ### 🐞 BUG-012
