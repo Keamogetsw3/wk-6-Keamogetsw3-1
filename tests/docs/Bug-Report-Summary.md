@@ -401,6 +401,201 @@ No email received.
 
 ---
 
+### 🐞 BUG-012
+- **Title:** User cannot view past and current pickup request history  
+- **GitHub Link:** [D012](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/61)  
+- **Requirement Affected:** Pickup Request – History Display  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+When a user navigates to their dashboard, the system fails to display all past and current pickup requests with their details. Users are unable to verify previous pickups or track ongoing requests, affecting usability and user experience.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in with a registered user account.  
+3. Navigate to **Dashboard**.  
+4. Observe that no past or current pickup requests are displayed.  
+
+#### Expected Result
+The system should display all past and current pickup requests with full details.  
+
+#### Actual Result
+User cannot view all past and current pickup requests with details.
+
+---
+
+### 🐞 BUG-013
+- **Title:** Completed and cancelled pickup requests are not shown in dashboard  
+- **GitHub Link:** [D013](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/62)  
+- **Requirement Affected:** Pickup Request – History Display  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+Completed and cancelled pickup requests fail to appear in the user's dashboard. This prevents users from confirming whether their requests were completed or cancelled.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in with a registered user account.  
+3. Navigate to **Dashboard**.  
+4. Observe that completed and cancelled requests are missing.  
+
+#### Expected Result
+Completed and cancelled requests should be shown correctly in the dashboard.  
+
+#### Actual Result
+Completed and cancelled requests are not shown at all.
+
+---
+
+### 🐞 BUG-014
+- **Title:** User cannot cancel a pending pickup request  
+- **GitHub Link:** [D014](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/63)  
+- **Requirement Affected:** Pickup Request – Cancellation  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+Users are unable to cancel a pickup request that is still pending. This prevents users from managing or updating their scheduled pickups.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in with a registered user account.  
+3. Navigate to **Dashboard**.  
+4. Attempt to cancel a pending pickup request.  
+5. Observe that the system does not allow cancellation.  
+
+#### Expected Result
+Pending requests should be cancellable, and their status should update to “Cancelled.”  
+
+#### Actual Result
+User cannot cancel a pending pickup request.
+
+---
+
+### 🐞 BUG-015
+- **Title:** Completed or cancelled requests can potentially be cancelled again  
+- **GitHub Link:** [D015](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/64)  
+- **Requirement Affected:** Pickup Request – Cancellation Rules  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+The system does not prevent double cancellation for completed or already cancelled requests, which may cause inconsistencies in request status tracking.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in with a registered user account.  
+3. Navigate to **Dashboard**.  
+4. Attempt to cancel a request that is already completed or cancelled.  
+
+#### Expected Result
+System should prevent double cancellation and notify the user.  
+
+#### Actual Result
+N/A (Test could not confirm prevention of double cancellation).
+
+---
+
+### 🐞 BUG-016
+- **Title:** User cannot modify pickup details at least 24 hours before schedule  
+- **GitHub Link:** [D016](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/65)  
+- **Requirement Affected:** Pickup Request – Modification  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+Users are unable to update pickup request details even when they are allowed to modify them 24 hours before the scheduled time.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in with a registered user account.  
+3. Navigate to **Dashboard**.  
+4. Attempt to modify a pending pickup request scheduled more than 24 hours in the future.  
+
+#### Expected Result
+User should be able to successfully update pickup details.  
+
+#### Actual Result
+Modification is not possible.
+
+---
+
+### 🐞 BUG-017
+- **Title:** System allows modification within 24 hours of scheduled pickup  
+- **GitHub Link:** [D017](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/66)  
+- **Requirement Affected:** Pickup Request – Modification Restriction  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+The system fails to enforce the 24-hour restriction for modifying scheduled pickups, potentially causing logistical issues.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in with a registered user account.  
+3. Navigate to **Dashboard**.  
+4. Attempt to modify a pickup request scheduled within the next 24 hours.  
+
+#### Expected Result
+System should prevent modification and display a warning message.  
+
+#### Actual Result
+N/A (Modification restriction is not enforced).
+
+---
+
+### 🐞 BUG-018
+- **Title:** Pickup status not displayed correctly  
+- **GitHub Link:** [D018](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/67)  
+- **Requirement Affected:** Pickup Request – Status Display  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+The system fails to display the correct status (Pending, Confirmed, Completed, or Cancelled) for each pickup request, making it difficult for users to track their requests.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in with a registered user account.  
+3. Navigate to **Dashboard**.  
+4. Observe the status of each pickup request.  
+
+#### Expected Result
+The system should correctly display each request’s status.  
+
+#### Actual Result
+Pickup status is not listed or visible.
+
+---
+
+### 🐞 BUG-019
+- **Title:** Pickup status does not update dynamically after completion/cancellation  
+- **GitHub Link:** [D019](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/68)  
+- **Requirement Affected:** Pickup Request – Status Update  
+- **Severity:** Major  
+- **Environment:** Development, Google Chrome, Windows 10  
+
+#### Summary
+After a pickup request is completed or cancelled, the system does not update the status dynamically. Users cannot see real-time updates on their request status.  
+
+#### Steps to Reproduce
+1. Open the CleanCity application in Google Chrome.  
+2. Log in with a registered user account.  
+3. Navigate to **Dashboard**.  
+4. Complete or cancel a pickup request.  
+5. Observe that the request status does not reflect the change.  
+
+#### Expected Result
+The status should update immediately to reflect completion or cancellation.  
+
+#### Actual Result
+Pickup status is not listed or visible.
+
+
+--
+
 ### 🐞 BUG-017
 - **Title:** To be added by Keamo
 
