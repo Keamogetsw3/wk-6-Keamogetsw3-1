@@ -158,14 +158,25 @@ The purpose of this report is to validate that the application meets its functio
 ---
 ### **6. ⚙️ Administrative Functions Requirements**
 ---
+### Table 6.1: Admin login and registratin
+
+| Test Case ID | Objective                                            | Test Type | Expected Result                                                                | Actual Result                                                | Status | Defect ID | Severity | Tester      | Date       |
+| ------------ | ---------------------------------------------------- | --------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------ | ------ | --------- | -------- | ----------- | ---------- |
+| TC001        | Verify registration with valid credentials | Manual | User should be registered successfully | User successfully registered   | Pass ✅ | —         | —        | Keamogetswe | 2025-11-10 |
+| TC016      | Verify login with valid credentials       | Automated | User should be logged in successfully | User successfully logged in  | Pass ✅  | —         | —       | Keamogetswe  | 2025-11-10 |
+| TC017      | Verify login with invalid password        | Automated  | System should display error  | User succefully logged in | Fail ❌ | [D-002](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/31)       | Critical     | Keamogetswe | 2025-11-11 |
+| TC018      | Verify login without email       | Automated  | System should display email required error | Error displayed: "Fill this field" | Pass ✅  | —         | —       | Keamogetswe  | 2025-11-10 |
+| TC019      | Verify login without password    | Automated | System should display password required error| Error displayed: "Fill this field" | Pass ✅  | —         | —       | Keamogetswe  | 2025-11-10 |
+| TC020      | Verify login with non-existent user       | Automated  | System should display error           | User logged in succefully   | Fail ❌ |[D-003](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/32)        | Critical       | Keamogetswe | 2025-11-10 |
+
 
 #### Table 6.1 Request Management Test case execusion report
 | Test Case ID | Test Description                                           | Test Type          | Expected Result                                                               | Actual Result | Status | Defect ID | Severity | Tester | Date |
 | ------------ | ---------------------------------------------------------- | ------------------ | ----------------------------------------------------------------------------- | ------------- | ------ | --------- | -------- | ------ | ---- |
-| TC070    | Verify that admins can view all pickup requests            | Manual | Admin can view a full list of all pickup requests with complete details       |               |        |           |          |        |      |
-| TC071   | Verify that admins can approve, reject, or modify requests | Manual | Admin can successfully approve, reject, or modify any pickup request          |               |        |           |          |        |      |
-| TC072   | Verify that admins can assign pickup dates and times       | Manual | Admin can set or update pickup dates/times and changes are saved successfully |               |        |           |          |        |      |
-| TC073    | Verify that admins can filter and search pickup requests   | Manual | The system returns correct filtered or searched results based on criteria     |               |        |           |          |        |      |
+| TC070    | Verify that admins can view all pickup requests | Manual | Admin can view a full list of all pickup requests with complete details | Admin can view a full list of all pickup requests with complete details  | Pass ✅ |  — |  — | Keamogetswe| 2025-11-17 |
+| TC071   | Verify that admins can approve, reject or modify requests | Manual | Admin can successfully approve, reject or modify any pickup request |               |        |  Fail ❌ |          | Keamogetswe |2025-11-17 |
+| TC072   | Verify that admins can assign pickup dates and times       | Manual | Admin can set or update pickup dates/times and changes are saved successfully |               |   Fail ❌ |           |          | Keamogetswe | 2025-11-17 |
+| TC073    | Verify that admins can filter and search pickup requests | Manual | The system returns correct filtered or searched results based on criteria |               |   Fail ❌ |           |          | Sally Trizer  | 2025-11-13 |
 
 
 ---
