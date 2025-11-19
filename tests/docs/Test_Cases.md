@@ -261,93 +261,62 @@
 
 ---
 
-| Test Case ID | Objective | Expected Result | Risk Link  | Notes |
-|--------------|-------------|----------------|----------------| ----------------|
-|   | |  | | |
-
-
-
----
-
-
-### **2. 🗑️ Waste Management Requirements**
-
----
-### 2.1 Pickup Scheduling
-
-
-
-### 2.2 Request Management Test Cases
-
-
-
-#### Data Persistence
-| Test Case ID | Objective | Expected Result | Risk Link  |
-|--------------|------------|----------------|----------------|
-|TC | Verify that user data is stored in localStorage | User data should be present in localStorage in the correct format |  |
-|TC | Verify data persists across browser sessions | Previously stored user data should be available and correctly displayed |  |
-| |  | |  |
-| |  | |  |
-
----
-
-
----
-
------
-
-
------
-
-## **Non-Functional Test Cases**
+## **📊 Non-Functional Test Cases**
 
 This section focuses on testing the system's non-functional requirements, which define how the system performs rather than what it does. It includes aspects such as performance, usability, reliability, security, and compatibility. Non-functional test cases ensure that the system meets quality standards and provides a good user experience under expected conditions.
 
-------
-### 📱 User Interface Requirements
 ---
-### Table .1: Test cases for Responsive Design
+### 10. 📞 Support and Maintenance
+### 10.1 System Monitoring
+#### Table 9.1.1 Test cases for **manual testing** 📝
+| Test Case ID | Objective | Expected Result | Risk Link  | Notes |
+|--------------|-------------|----------------|----------------| ----------------|
+|  TC096 | |  | | R014 |
+|  TC097 | |  | | R014|
+
+---
+### 10. 📱 User Interface Requirements
+---
+#### 10.1 Responsive Design
+#### Table 10.1.1: Test cases for **manual testing** 📝
 | Test Case ID |  Objective | Expected Result | Risk Link  |
 |--------------|------------|----------------|----------------|
-|TC-0 | Verify responsiveness when resizing the browser window dynamically | Layout adapts in real-time without breaking or losing functionality | R-008 |
-|TC-0 | Verify the system displays correctly on desktop screens (1920×1080 and above)| All UI elements render properly and no horizontal scrolling occurs| R-008 |
-|TC-0 | Verify the system displays correctly on tablet screens (768px to 1024px) | Layout adjusts appropriately, Content fits the screen, navigation is usable and no overlapping elements occur | R-008 |
-|TC-0 | Verify the system displays correctly on mobile phones (320px to 767px)| Layout adjusts appropriately, Content fits the screen, navigation is usable and no overlapping elements occur| R-008 |
+|TC98 | Verify responsiveness when resizing the browser window dynamically | Layout adapts in real-time without breaking or losing functionality | R008 |
+|TC99 | Verify the system displays correctly on desktop screens (1920×1080 and above)| All UI elements render properly and no horizontal scrolling occurs| R008 |
 
-
-### Table .2: Test cases for Accessibility (Manual Testing )
-| Test Case ID | Objective | Expected Result | Risk Link  |
-|--------------|----------|------------|----------------|
-|TC-0 |Verify contrast ratio meets WCAG 2.1 AA (minimum 4.5:1 for text) | All text and UI elements meet required contrast ratios | R-008|
-|TC-0 |Verify zooming to 200% does not break layout | Page remains usable and responsive at 200% zoom | R-008 |
-|TC-0 |Verift that the system support keyboard navigation | All fields accessible and focusable using **Tab** and **Enter** | R-008 |
-|TC-0 |Verify all meaningful images have descriptive alt text | Images have descriptive alt text | R-008 |
-|TC-0 |Verify Screen Reader Announces Form Field Labels Correctly| Screen reader announce each field correctly| R-008 |
-
-### Table .2: Test cases for Accessibility (Lighthouse - Dev Tools )
-| Test Case ID | Objective | Expected Result | Risk Link  |
-|--------------|----------|------------|----------------|
-|TC-0 |Verify contrast ratio meets WCAG 2.1 AA (minimum 4.5:1 for text) | All text and UI elements meet required contrast ratios | R-008|
-|TC-0 |  | | R-008 |
-|TC-0 |  | | R-008 |
-|TC-0 |  | | R-008 |
-
-### Table .2: Test cases for Accessibility (SonarQube)
-| Test Case ID | Objective | Expected Result | Risk Link  |
-|--------------|----------|------------|----------------|
-|TC-0 |Verify that form fields include labels or ARIA-labels |  | R-008|
-|TC-0 |  |  | R-008 |
-|TC-0 |  | | R-008 |
-|TC-0 |  | | R-008 |
-
-
-### Table .1: Test cases for Navigation
+---
+#### Table 10.1.2: Test cases for **automated testing** 📝
 | Test Case ID |  Objective | Expected Result | Risk Link  |
 |--------------|------------|----------------|----------------|
-|TC-0 | Verify navigation menu is easy to understand | Navigation menu is clearly visible with descriptive labels and accessible on all main pages | R013 |
-|TC-0 | Verify navigation menu links work correctly  | Each menu item redirects to the correct page without errors | R013 |
-|TC-0 | Verift that the system show breadcrumbs for complex pages |Breadcrumbs appear and show the correct page hierarchy |  R013 |
-|TC-0 | Verify search bar visibility and returns relevant results | Search bar is visible and shows results relevant to the keyword are displayed | R013 |
+|TC100 | Verify the system displays correctly on tablet screens (768px to 1024px) | Layout adjusts appropriately, Content fits the screen, navigation is usable and no overlapping elements occur | R008 |
+|TC101 | Verify the system displays correctly on mobile phones (320px to 767px)| Layout adjusts appropriately, Content fits the screen, navigation is usable and no overlapping elements occur| R008 |
+
+---
+#### 10.2 Accessibility
+### Table 10.2.1: Test cases for Accessibility (Manual Testing )
+| Test Case ID | Objective | Expected Result | Risk Link  |
+|--------------|----------|------------|----------------|
+|TC102 |Verify contrast ratio meets WCAG 2.1 AA (minimum 4.5:1 for text) | All text and UI elements meet required contrast ratios | R008|
+|TC103 |Verify zooming to 200% does not break layout | Page remains usable and responsive at 200% zoom | R008 |
+|TC104 |Verift that the system support keyboard navigation | All fields accessible and focusable using **Tab** and **Enter** | R008 |
+|TC105 |Verify all meaningful images have descriptive alt text | Images have descriptive alt text | R-008 |
+
+---
+#### Table 10.2.2: Test cases for Accessibility (automated Testing )
+| Test Case ID | Objective | Expected Result | Risk Link  |
+|--------------|----------|------------|----------------|
+|TC106 |Verify contrast ratio meets WCAG 2.1 AA (minimum 4.5:1 for text) | All text and UI elements meet required contrast ratios | R008|
+|TC107 |Verify Screen Reader Announces Form Field Labels Correctly| Screen reader announce each field correctly| R008 |
+
+---
+#### 10.3 Navigation
+#### Table 10.3.1: Test cases for manual testing
+| Test Case ID |  Objective | Expected Result | Risk Link  |
+|--------------|------------|----------------|----------------|
+|TC108 | Verify navigation menu is easy to understand | Navigation menu is clearly visible with descriptive labels and accessible on all main pages | R008 |
+|TC109 | Verify navigation menu links work correctly  | Each menu item redirects to the correct page without errors | R008 |
+|TC110 | Verift that the system show breadcrumbs for complex pages |Breadcrumbs appear and show the correct page hierarchy |  R008 |
+|TC111 | Verify search bar visibility and returns relevant results | Search bar is visible and shows results relevant to the keyword are displayed | R008 |
 
 ---
 ### 🔒  Data Management Requirements
@@ -380,7 +349,9 @@ This section focuses on testing the system's non-functional requirements, which 
 ------
 
 
-
+| Test Case ID | Objective | Expected Result | Risk Link  | Notes |
+|--------------|-------------|----------------|----------------| ----------------|
+|   | |  | | |
 
 
 
