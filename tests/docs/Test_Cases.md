@@ -335,21 +335,25 @@ This section focuses on testing the system's non-functional requirements, which 
 | TC113  | |  | R007| |
 
 ---
+### 12. 🚀 Performance Requirements
+---
 
-### 🚀 Performance Requirements
-#### Response Time
+#### 12.1 Response Time
+#### Table 12.1.1: Test cases for Automated testing
+| Test Case ID | Objective | Expected Result | Risk Link  |  |
+|--------------|----------|------------|----------------|----------------|
+|TC116  |  | | R008 | |
+|TC117  |  | | R008 | |
 
+---
 
+#### 12.2 Browser Compatibility
+#### Table 12.2.1: Test cases for Manual testing
 | Test Case ID | Feature | Objective | Expected Result | Risk Link  |
 |--------------|----------|------------|----------------|----------------|
-| |  | |  |
-
-#### Browser Compatibility
-| Test Case ID | Feature | Objective | Expected Result | Risk Link  |
-|--------------|----------|------------|----------------|----------------|
-| TC | Verify system works on Google Chrome (latest 2 versions) by performing core functionalities (login, form submission, navigation)| |  |
-| TC | Verify system works on Mozilla Firefox (latest 2 versions) by performing core functionalities (login, form submission, navigation)| |  |
-| TC | Verify system works on Microsoft Edge (latest 2 versions) by performing core functionalities (login, form submission, navigation)| |  |
+| TC118 | Verify system works on Google Chrome (latest 2 versions) by performing core functionalities (login, form submission, navigation)| Application functions correctly without layout issues, errors, or crashes| R009 |
+| TC119 | Verify system works on Mozilla Firefox (latest 2 versions) by performing core functionalities (login, form submission, navigation)| Application functions correctly without layout issues, errors, or crashes | R009 |
+| TC120 | Verify system works on Microsoft Edge (latest 2 versions) by performing core functionalities (login, form submission, navigation)| Application functions correctly without layout issues, errors, or crashes | R009 |
 ------
 
 
