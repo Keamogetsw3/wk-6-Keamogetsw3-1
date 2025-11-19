@@ -319,16 +319,20 @@ This section focuses on testing the system's non-functional requirements, which 
 |TC111 | Verify search bar visibility and returns relevant results | Search bar is visible and shows results relevant to the keyword are displayed | R008 |
 
 ---
-### 🔒  Data Management Requirements
-#### Data Persistence
-| Test Case ID | Objective | Expected Result | Risk Link  |
-|--------------|------------|----------------|----------------|
-|TC | Verify that the system shall handle localStorage limitations gracefully| System should show a clear error message or handle overflow without crashing |  |
+### 11. 🔒  Data Management Requirements
+---
+#### 11.1 Data Persistence
+#### Table 11.1.1: Test cases for manual testing
+| Test Case ID | Objective | Expected Result | Risk Link  | Notes |
+|--------------|-------------|----------------|----------------| ----------------|
+|  TC114 | |  | R007 |  |
+|  TC115 | |  | R007 |  |
 
-#### Data Validation
-| Test Case ID | Feature | Objective | Expected Result | Risk Link  |
-|--------------|----------|------------|----------------|----------------|
-| |  | |  |
+#### Table 11.1.2: Test cases for Automated testing
+| Test Case ID | Objective | Expected Result | Risk Link  | Notes |
+|--------------|-------------|----------------|----------------| ----------------|
+| TC112  | |  | R006 | |
+| TC113  | |  | R007| |
 
 ---
 
