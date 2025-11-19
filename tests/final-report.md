@@ -101,7 +101,7 @@ The following areas were not included in the testing scope:
 - **Support and Maintenance**
   - User activity logging and error reporting.
     
-## 4 Test Strategy and Approach
+## 4. Test Strategy and Approach
 
 ### 4.1 Test Planning
 - Review project requirements, user stories, and system workflows.
@@ -166,30 +166,49 @@ The following areas were not included in the testing scope:
 
 ---
 
-## 6 Test Execution Summary
+## 6. Test Execution Summary
 
-# Test Execution Summary
+### 6.1 Summary of Planned Test Cases
+---
+Test cases were designed using both white-box and black-box techniques. In total, we created **138 test cases** across modules such as Authentication, Waste Management, Dashboard & Analytics, Content Management, Community Features, User Profiles, Social Features, Administrative Functions, Notification System, User Interface, Data Management, Performance, Error Handling and Support & Maintenance. These test cases covered Functional Testing, Non-Functional Testing, and Boundary Value Testing to ensure comprehensive system validation.
 
-## Summary of Planned Test Cases (120+ Estimated)
+#### Table 6.1.1: Summary of Manual and Automated Test Cases formulated for  **Functional Testing**
+| Module                    | Manual | Automated | Total | Total Executed |
+|---------------------------|:------:|:---------:|:-----:|:---------------:|
+| Authentication            |   17   |    11     |  28   |       27        |
+| Waste Management          |   18   |     1     |  19   |       19        |
+| Dashboard & Analytics     |    3   |     0     |   3   |        3        |
+| Content Management        |   15   |     0     |  15   |       15        |
+| Community Features        |    4   |     0     |   4   |        4        |
+| Administrative Functions  |   14   |     0     |  14   |       14        |
+| Notification System       |    4   |     0     |   4   |        4        |
+| Data Management           |    5   |     0     |   5   |        5        |
+| Support & Maintenance     |    3   |     0     |   3   |        3        |
+| **🔢 Total**              | **83** | **12**    | **95** |     **94**      |
 
-| Category             | Manual | Automated | Total |
-|----------------------|--------|-----------|-------|
-| Registration         | 5      | 5         | 10    |
-| Login                | 5      | 5         | 10    |
-| Logout               | 3      | 1         | 4     |
-| Role-Based Access    | 4      | –         | 4     |
-| Pickup Scheduling    | 7      | 1         | 8     |
-| Request Management   | 8      | –         | 8     |
-| Tracking             | 3      | –         | 3     |
-| Dashboard            | 3      | –         | 3     |
-| Blog System          | 7      | –         | 7     |
-| Awareness            | 5      | –         | 5     |
-| Community Feed       | 3      | –         | 3     |
-| Community Features   | 4      | –         | 4     |
-| Admin Functions      | 4      | –         | 4     |
-| Session Management   | 5      | –         | 5     |
-| Non-Functional       | 20+    | –         | 20+   |
-| Boundary / Edge      | 10+    | –         | 10+   |
+---
+
+#### Table 6.1.2: Summary of Manual and Automated Test Cases formulated for  **Non-Functional Testing**
+| Module                         | Manual | Automated | Total | Total Executed |
+|--------------------------------|:------:|:---------:|:-----:|:---------------:|
+| Support & Maintenance           |   2    |     0     |   2   |        0        |
+| User Interface Requirements     |  10    |     4     |  14   |       14        |
+| Data Management                 |   2    |     2     |   4   |        3        |
+| Performance Requirements        |   3    |     2     |   5   |        5        |
+| Error Handling                  |   1    |     7     |   8   |        8        |
+| **🔢 Total**                     | **18** | **15**   | **33** |      **30**     |
+
+---
+
+#### Table 6.1.3: Summary of Manual and Automated Test Cases formulated for  **Boundary Value Analysis**
+| Module         | Manual | Automated | Total | Total Executed |
+|----------------|:------:|:---------:|:-----:|:---------------:|
+| Boundary Value Analysis |   2    |    10     |  12   |       10        |
+| **🔢 Total**   |   2    |    10     |  12   |       10        |
+
+---
+#### Figure 6.1.1: Example of test cases that were formulated in this project
+<img width="1312" height="588" alt="image" src="https://github.com/user-attachments/assets/0dd3f2eb-5fd1-429f-984c-723c36d60b66" />
 
 ---
 
