@@ -229,49 +229,48 @@ The purpose of this report is to validate that the application meets its functio
 | TC094        | Verify that the system includes a FAQ section                   | Manual    | Users can access the FAQ section and read answers               | FAQ section is missing or inaccessible                           | Fail ❌  | [D045](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/94) | 🟡 Minor    | Keamogetswe   | 2025-11-18 |
 | TC095        | Verify that the system provides contact information for support | Manual    | Users can view support contact information (email, phone, chat) | Support contact information not visible or incomplete           | Fail ❌  | [D046](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/95) | 🟡 Minor    | Keamogetswe   | 2025-11-18 |
 
-
-
 ---
 # 📊 Non-Functional Testing
 ---
 ## **10 📞 Support & Maintenance**
-#### Table 10.1: System Monitoring case execusion report
+### 10.1 System Monitoring
+#### Table 10.1.1: System Monitoring case execusion report
 | Test Case ID | Objective                                                     | Test Type | Expected Result                                                                                                      | Actual Result | Status | Defect ID | Severity | Tester | Date |
 | ------------ | ------------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------- | ------------- | ------ | --------- | -------- | ------ | ---- |
-| TC096        | Verify that user actions are logged correctly for debugging   | Manual/automated    | All user actions (login, create, update, delete) are recorded with timestamp, user ID, and action type               |               |        |           | Medium   |        |      |
-| TC097        | Verify that system captures and logs errors correctly         | Manual/automated    | All system errors (invalid input, server errors, exceptions) are logged with timestamp, error type, and user context |               |        |           | High     |        |      |                                                  |               |        |           | High     |        |      |
+| TC096        | Verify that user actions are logged correctly for debugging   | Manual/automated    | All user actions (login, create, update, delete) are recorded with timestamp, user ID, and action type               |               |        |           |  |        |      |
+| TC097        | Verify that system captures and logs errors correctly         | Manual/automated    | All system errors (invalid input, server errors, exceptions) are logged with timestamp, error type, and user context |               |        |           |    |        |      |                                                  |               |        |           | |        |      |
 
 ---
 ## **11. 📱 User Interface Requirements**
-===
 
-#### Table 11.1: Responsive Design Test case execusion report
+#### Table 11.1.1: Responsive Design Test case execusion report
 | Test Case ID | Objective                                                   | Test Type | Expected Result                                               | Actual Result                                       | Status     | Defect ID | Severity | Tester | Date |
 | ---------------- | -------------------------------------------------------------------------- | ------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | --------------- | ------------- | ------------ | ----------- | ---------- |
-| TC098  | Verify responsiveness when resizing the browser window dynamically | Manual| Layout adapts in real-time without breaking or losing functionality |Menu bar expands excessively when resizing window, hiding all other content | Fail ❌ | [D-008](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/55) | Major | Keamogetswe| 2025-11-14 |
+| TC098  | Verify responsiveness when resizing the browser window dynamically | Manual| Layout adapts in real-time without breaking or losing functionality |Menu bar expands excessively when resizing window, hiding all other content | Fail ❌ | [D-008](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/55) | 🟠 Major  | Keamogetswe| 2025-11-14 |
 | TC099  | Verify the system displays correctly on desktop screens (1920×1080 and above) | Manual | All UI elements render properly and no horizontal scrolling occurs| All UI elements rendered properly and no horizontal scrolling occurs| Pass ✅ | — | —  | Keamogetswe| 2025-11-14 |
 | TC100  | Verify the system displays correctly on tablet screens (768px to 1024px) | Automated | ayout adjusts appropriately, Content fits the screen, navigation is usable and no overlapping elements occur  | Pass ✅ |  | — | —  |Keamogetswe| 2025-11-17 |
-| TC101  | Verify the system displays correctly on mobile phones (320px to 767px) | Manual | Layout adjusts appropriately, Content fits the screen, navigation is usable and no overlapping elements occur | Menu bar expands excessively when resizing window, hiding all other content | Fail ❌  | [D047](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/96)| Critical | Keamogetswe| 2025-11-17 |
+| TC101  | Verify the system displays correctly on mobile phones (320px to 767px) | automated | Layout adjusts appropriately, Content fits the screen, navigation is usable and no overlapping elements occur | Menu bar expands excessively when resizing window, hiding all other content | Fail ❌  | [D047](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/96)| 🔴 Critical | Keamogetswe| 2025-11-17 |
+
 ---
 
 #### Table 11.2: Accessibility (📱 User Interface Requirements ) - (Manual testing )
 | Test Case ID | Objective                                                   | Test Type | Expected Result                                               | Actual Result                                       | Status     | Defect ID | Severity | Tester | Date |
 | ---------------- | -------------------------------------------------------------------------- | ------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | --------------- | ------------- | ------------ | ----------- | ---------- |
 | TC102  | Verify contrast ratio meets WCAG 2.1 AA (minimum 4.5:1 for text) | Manual | All text and UI elements meet required contrast ratios | Text readable; no low contrast detected | Pass ✅  | — | — | Sally Trizer  | 2025-11-12 |
-| TC103  | Verify zooming to 200% does not break layout | Manual  | Page remains usable and responsive at 200% zoom | When zoomed to 200%, the menu enlarges excessively, pushing or hiding other content. Only the menu is visible at this zoom level | Fail ❌ | [D-010](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/59)  | Medium  | Keamogetswe | 2025-11-14 |
+| TC103  | Verify zooming to 200% does not break layout | Manual  | Page remains usable and responsive at 200% zoom | When zoomed to 200%, the menu enlarges excessively, pushing or hiding other content. Only the menu is visible at this zoom level | Fail ❌ | [D-010](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/59)  | 🟠 Major | Keamogetswe | 2025-11-14 |
 | TC104  | Verift that the system support keyboard navigation | Manual | All fields accessible and focusable using Tab and Enter | Tabbing works smoothly and Enter button functions correctly |  Pass ✅ | — | —  | Sally Trizer | 2025-11-12 |
-| TC105  | Verify all meaningful images have descriptive alt text | Manual  | Images have descriptive alt text | alt attribute missing for awareness page images | Fail ❌ | [D-011](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/59)  | Medium | Sally Trizer | 2025-11-12 |
-| TC106  | Verify screen reader announces Form Field Labels correctly | Manual | Screen reader announce each field correctly | NVDA can announce the field correctly | Pass ✅ | — | —  |Keamogetswe| 2025-11-14 |
-| TC107  | Verify contrast ratio meets WCAG 2.1 AA (minimum 4.5:1 for text) | Lighthouse - Dev Tools | All text and UI elements meet required contrast ratios | Low Contrast Text Fails WCAG 2.1 AA | Fail ❌ | [D-009](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/55) | Major | Keamogetswe | 2025-11-14 |
+| TC105  | Verify all meaningful images have descriptive alt text | Manual  | Images have descriptive alt text | alt attribute missing for awareness page images | Fail ❌ | [D-011](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/59)  | 🟠 Major | Sally Trizer | 2025-11-12 |
+| TC106  | Verify screen reader announces Form Field Labels correctly | Automated | Screen reader announce each field correctly | NVDA can announce the field correctly | Pass ✅ | — | —  |Keamogetswe| 2025-11-14 |
+| TC107  | Verify contrast ratio meets WCAG 2.1 AA (minimum 4.5:1 for text) | Automated | All text and UI elements meet required contrast ratios | Low Contrast Text Fails WCAG 2.1 AA | Fail ❌ | [D-009](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/55) | 🟠 Major | Keamogetswe | 2025-11-14 |
 
 ---
 #### Table 11.3:  Navigation Test Cases execution report
 | Test Case ID | Objective                                                   | Test Type       | Expected Result                                                                 | Actual Result                                                                 | Status | Defect ID | Severity | Tester       | Date       |
 |--------------|-------------------------------------------------------------|------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------|--------|-----------|----------|--------------|------------|
-| TC108| Verify navigation menu is easy to understand                 | Non-Functional   | Navigation menu is clearly visible with descriptive labels                      | Navigation menu displays correctly and is easy to understand                 | Pass ✅   | —         | —        | Keamogetswe | 2025-11-16 |
-| TC109  | Verify navigation menu links work correctly                  | Non-Functional   | Each navigation link should redirect to the correct page                         | All navigation redirects function as expected                                | Pass ✅    | —         | —        |Keamogetswe | 2025-11-16 |
-| TC110        | Verify system shows correct breadcrumbs on complex pages  | Manual  | Breadcrumbs should display full, accurate page hierarchy       | Breadcrumb shows only **"Profile"** when editing; hierarchy missing | Fail ❌  | [D048](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/96)| Minor    | Keamogetswe   | 2025-11-16 |
-| TC111        | Verify search bar visibility and relevant results functionality | Manual | Search results and filters should update based on input        | Search & filter **do nothing**; article list remains unchanged      | Fail ❌  | [D049](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/96)  | Minor    | Keamogetswe   | 2025-11-16 |
+| TC108| Verify navigation menu is easy to understand                 | Manual  | Navigation menu is clearly visible with descriptive labels                      | Navigation menu displays correctly and is easy to understand                 | Pass ✅   | —         | —        | Keamogetswe | 2025-11-16 |
+| TC109  | Verify navigation menu links work correctly                  | Manual   | Each navigation link should redirect to the correct page                         | All navigation redirects function as expected                                | Pass ✅    | —         | —        |Keamogetswe | 2025-11-16 |
+| TC110        | Verify system shows correct breadcrumbs on complex pages  | Manual  | Breadcrumbs should display full, accurate page hierarchy       | Breadcrumb shows only **"Profile"** when editing; hierarchy missing | Fail ❌  | [D048](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/96)| 🟡 Minor   | Keamogetswe   | 2025-11-16 |
+| TC111        | Verify search bar visibility and relevant results functionality | Manual | Search results and filters should update based on input        | Search & filter **do nothing**; article list remains unchanged      | Fail ❌  | [D049](https://github.com/Keamogetsw3/CleanCity-Waste_Pickup_Scheduler-QATesting/issues/96)  | 🟡 Minor    | Keamogetswe   | 2025-11-16 |
 
 ---
 ## **12. 🔒 Data Management Requirements**
